@@ -4,6 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import edu.kh.comm.member.model.service.MemberService;
+import edu.kh.comm.member.model.service.MemberServiceImpl;
 import edu.kh.comm.member.model.vo.Member;
 
 // POJO 기반 프레임워크 : 외부 라이브러리 상속 X
@@ -29,13 +32,18 @@ import edu.kh.comm.member.model.vo.Member;
 @Controller // 생성된 bean이 Controller임을 명시 + bean 등록
 
 @RequestMapping("/member") // localhost:8080/comm/member 이하의 요청을 처리하는 컨드롤러
-
 // localhost:8080/comm/member/login
 // localhost:8080/comm/member/logout
 // 등의 주소를 가져온다
 public class MemberController {
 	
 	private Logger logger = LoggerFactory.getLogger(MemberController.class);
+	
+	//private MemberService service = new MemberServiceImpl(); // new 연산자를 잘 사용하지 않음 IOC(제어의 역전) 때문에
+				// 부모						자식		- 	다형성 개념
+	@Autowired // bean으로 등록된 객체 중 타입이 같거나, 상속관계인 bean을 주입해주는 역할
+	private MemberService service; // IOC(제어의 역전) + 의존성 주입(DI)
+	
 	
 	// Controller : 요청/응답을 제어하는 역할을 지닌 클래스
 	
@@ -128,6 +136,9 @@ public class MemberController {
 		
 		logger.info("로그인 기능 수행됨");
 
+		// 아이디, 비밀번호가 일치하는 회원 정보를 조회하는 service 호출 후 결과 반환 받기
+		Member loginMember = service.login(inputMember);
+		
 		return "redirect:/";
 	}
 	

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="memberMapper">
+ 	
+ 	<!-- 
+ 		mapper 파일 생성 시 반드시 해야하는 것!
+ 		1. cashe-ref 태그 삭제
+ 		2. mapper 태그에 namespace 속성 추가
+ 		(C:\workspace\7_Framwork\comm\src\main\resources\mappers
+ 		원래 이름이 이건데 너무 길어서 쉽게 가려고 쓰는기능)
+ 	 -->
+	
+	<!-- 수행하려는 SQL에 따라서 태그가 구분됨. (사용 가능한 속성 다름) -->
+	
+	<!-- select 태그 속성
+		1) resultType : 조회 결과가 1행 1열인 경우에만 작성
+						조회된 데이터의 Java 자료형을 Mybatis 별칭 형태로 작성해야함
+		[mtbatis 별칭]
+		java 	: 	   mybatis
+		
+		int  	:	  _int
+		Integer : 	   int					
+		String  :	   string (java.lang.String을 써줘야 S가능 귀찮으니 그냥 s로 쓰자)				
+		
+	 -->
+	 
+	 <!-- 조회되는 행의 개수 : 1행 / 조회되는 데이터 타입 : int형(resultType) -->
+	<select id="test1" resultType="_int">
+		SELECT COUNT(*) FROM MEMBER
+	</select>
+	
+	<!-- (중요)
+		마이바티스에서 #{}, ${} 차이점
+		
+		#{변수명} : SQL에 값이 포함될 때 양쪽 '' 추가됨 (pstmt)
+					-> 리터럴 사용(값 자체로 사용)
+		${변수명} : SQL에 값이 포함될 때 양쪽 '' 추가되지 않음 (stmt)
+					-> SQL 구문 조합 시 사용 (condition)
+					
+		?는 인식 못해서 사용안함
+	 -->
+	
+	
+	<!-- 조회되는 행의 개수 : 1형 / 파라미터 타입 : String / 조회되는 타입 : String -->
+	<select id="test2" parameterType="string" resultType="string">
+		SELECT MEMBER_NICK FROM MEMBER 
+		WHERE MEMBER_EMAIL = #{memberEmail} 
+		AND SECESSION_FL = 'N'
+	</select>
+
+  
+</mapper>
