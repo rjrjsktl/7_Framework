@@ -31,11 +31,19 @@ public class MemberDAO {
 //		logger.debug(count + "");
 		
 		// 1행 조회(파라미터 o) 방법
-		String memberNickname = sqlSession.selectOne("memberMapper.test2", inputMember.getMemberEmail());
-		logger.debug(memberNickname);
+		// String memberNickname = sqlSession.selectOne("memberMapper.test2", inputMember.getMemberEmail());
+		// logger.debug(memberNickname);
+		
+		// 1행 조회(파라미터 VO 경우)
+		// String memberTel = sqlSession.selectOne("memberMapper.test3", inputMember);
+																	// memberEmail, memberPw
+		// logger.debug(memberTel);
 		
 		
-		return null;
+		// 1행 조회(파라미터 VO, 반환되는 결과 VO) 
+		Member loginMember = sqlSession.selectOne("memberMapper.login", inputMember);
+		
+		return loginMember;
 	}
 
 }

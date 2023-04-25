@@ -21,7 +21,7 @@
 	
 	<!-- 별칭 작성 부분 -->
 	<typeAliases>
-	
+		<typeAlias type="edu.kh.comm.member.model.vo.Member" alias="member" />
 	</typeAliases>
 	
 	<!-- SQL이 작성되는 mapper 파일 위치를 등록 -->
