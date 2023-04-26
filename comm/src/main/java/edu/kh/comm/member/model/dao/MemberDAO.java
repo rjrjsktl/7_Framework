@@ -39,11 +39,34 @@ public class MemberDAO {
 																	// memberEmail, memberPw
 		// logger.debug(memberTel);
 		
-		
 		// 1행 조회(파라미터 VO, 반환되는 결과 VO) 
 		Member loginMember = sqlSession.selectOne("memberMapper.login", inputMember);
 		
 		return loginMember;
+	}
+
+	/** 이메일 중복 검사 DAO
+	 * @param memberEmail
+	 * @return
+	 */
+	public int emailDupCheck(String memberEmail) {
+		return sqlSession.selectOne("memberMapper.emailDupCheck", memberEmail);
+	}
+
+	/** 닉네임 중복 검사 DAO
+	 * @param memberNickname
+	 * @return
+	 */
+	public int nicknameDupCheck(String memberNickname) {
+		return sqlSession.selectOne("memberMapper.nicknameDupCheck", memberNickname);
+	}
+
+	/** 회원 가입 DAO
+	 * @param mem
+	 * @return
+	 */
+	public int signUp(Member mem) {
+		return sqlSession.insert("memberMapper.signUp", mem);
 	}
 
 }

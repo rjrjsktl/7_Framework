@@ -8,7 +8,7 @@ const checkObj = {
     "memberPwConfirm" : false,
     "memberNickname"  : false,
     "memberTel"       : false,
-    "sendEmail"       : false   // 인증번호 발송 체크
+    // "sendEmail"       : false   // 인증번호 발송 체크
 };
 
 
@@ -83,8 +83,8 @@ memberEmail.addEventListener("input", function(){
         $.ajax({
             url : "emailDupCheck",   
             //  필수 속성 url
-            // 현재 주소 : /community/member/signUp
-            // 상대 경로 : /community/member/emailDupCheck
+            // 현재 주소 : /comm/member/signUp
+            // 상대 경로 : /comm/member/emailDupCheck
 
             data : { "memberEmail" : memberEmail.value },
             // data속성 : 비동기 통신 시 서버로 전달할 값을 작성(JS 객체 형식)
@@ -273,7 +273,7 @@ function signUpValidate(){
 
     // checkObj에 있는 모든 속성을 반복 접근하여
     // false가 하나라도 있는 경우에는 form태그 기본 이벤트 제거
-
+    console.log("싸인업됨?")
     let str;
 
     for( let key  in checkObj ){ // 객체용 향상된 for문
@@ -437,3 +437,20 @@ cBtn.addEventListener("click", function(){
     }
 
 });
+
+// 주소 검색 js
+function sample4_execDaumPostcode() {
+    new daum.Postcode({
+        oncomplete: function(data) {
+            // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+
+            // 도로명 주소의 노출 규칙에 따라 주소를 표시한다.
+            // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+            var roadAddr = data.roadAddress; // 도로명 주소 변수
+
+            // 우편번호와 주소 정보를 해당 필드에 넣는다.
+            document.getElementById('sample4_postcode').value = data.zonecode;
+            document.getElementById("sample4_roadAddress").value = roadAddr;
+        }
+    }).open();
+}

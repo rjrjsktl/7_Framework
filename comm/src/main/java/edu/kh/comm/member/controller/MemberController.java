@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -220,6 +221,83 @@ public class MemberController {
 		
 		return "member/signUp";
 	}
+	
+	// 이메일 중복 검사
+	@ResponseBody
+	@GetMapping("/emailDupCheck")
+	// public String emailDupCheck(@RequestParam("memberEmail") String memberEmail) {
+	public int emailDupCheck(/*생략가능*/String memberEmail) {
+		
+		// int result = service.emailDupCheck(memberEmail); 지우고 리턴에 바로 써도 됨
+		
+		// 컨트롤러에서 반환되는 값은 forward 또는 redirect를 위한 경로인 경우가 일반적
+		// -> 반환되는 값은 경로로 인식됨
+		
+		// -> 이를 해결하기 위한 어노테이션 @ResponseBody 가 존재한다
+		
+		// @ResponseBody : 반환되는 값을 응답의 몸통(body)에 추가하여
+		//					이전 요청 주소로 돌아간다
+		// -> 컨트롤러에서 반환되는 값이 경로가 아닌 "값 자체"로 인식됨.
+		return service.emailDupCheck(memberEmail);
+	}
+	// 해야 할 것
+	// 닉네임 중복 검사
+	@ResponseBody
+	@GetMapping("/nicknameDupCheck")
+	public int nicknameDupCheck(/*생략가능*/String memberNickname) {
+		return service.nicknameDupCheck(memberNickname);
+	}
+	
+	// 회원 가입 (sqlSession.insert()) --> <insert></insert>
+	@PostMapping("/signUp")
+	public String signUp(String memberEmail, String memberPw, String memberPwConfirm,
+					String memberNickname, String memberTel, 
+					@RequestParam(value = "memberAddress", required = false) String[] address, HttpSession session) {
+		logger.info("들어오냐");
+		String memberAddress = null;
+		
+		if (address != null && address.length > 0 && !address[0].equals("")) {
+	        memberAddress = String.join(",,", address);
+	    }
+		logger.info("주소옴?");
+	    Member mem = new Member();
+	    mem.setMemberEmail(memberEmail);
+	    mem.setMemberPw(memberPw);
+	    mem.setMemberNickname(memberNickname);
+	    mem.setMemberTel(memberTel);
+	    mem.setMemberAddress(memberAddress);
+
+	    try {
+	    	int result = service.signUp(mem);
+
+	        if (result > 0) {
+	        	session.setAttribute("message", "회원가입 성공");
+	        } else {
+	            session.setAttribute("message", "회원가입 실패");
+	            return ("member/signUp");
+	        }
+	    } catch (Exception e) {
+	    	e.printStackTrace();
+	    	session.setAttribute("message", "회원가입 오류 발생");
+	    }
+	    return ("redirect:/");
+	}
+	// 회원 1명 정보 조회(ajax) (sqlSession.selectOne())
+	// 회원 목록 조회(ajax) (sqlSession.selectList())
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }

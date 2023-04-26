@@ -23,5 +23,19 @@ public interface MemberService {
 	//public abstract이게 없어도 됨
 	public abstract Member login(Member inputMember);
 
+	/** 이메일 중복검사 서비스
+	 * @param memberEmail
+	 * @return result
+	 */
+	public abstract int emailDupCheck(String memberEmail);
+
+	/** 닉네임 중복검사 서비스
+	 * @param memberNickname
+	 * @return
+	 */
+	public abstract int nicknameDupCheck(String memberNickname);
+
+	public abstract int signUp(Member mem);
+
 	
 }

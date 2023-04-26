@@ -208,7 +208,7 @@ function selectAll(){ // 회원 전체 조회 함수
     selectAll(); // 함수 호출 -> 회원 목록을 먼저 조회
 
     //window.setInterval(함수, 딜레이(ms))
-    window.setInterval(selectAll, 10000); // 10초
+    window.setInterval(selectAll, 1000000); // 1000초
     // 함수 이름만 작성 -> 함수 코드가 대입
     // -> 10초마다 selectAll 함수 수행
 
