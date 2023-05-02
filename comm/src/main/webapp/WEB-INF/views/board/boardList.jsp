@@ -80,7 +80,15 @@
                                                 <img class="list-thumbnail" src="${contextPath}${board.thumbnail}">
                                             </c:if>  
 
-                                            <a href="detail?no=${board.boardNo}&cp=${pagination.currentPage}&type=${param.type}${sURL}">${board.boardTitle}</a>                           
+                                            <a href="../detail/${boardCode}/${board.boardNo}?cp=${pagination.currentPage}${sURL}">${board.boardTitle}</a>                           
+											<%-- detail?no=${board.boardNo}&cp=${pagination.currentPage}&type=${param.type}${sURL} --%>                                            
+											
+											
+                                            <!-- 
+                                            	현재 페이지 주소 : /board/list/1?cp=1
+                                            	상세 조회 주소 : /board/detail/1/300?cp=1
+                                             -->
+                                           
                                         </td>
                                         <td>${board.memberNickname}</td>
                                         <td>${board.createDate}</td>
@@ -108,7 +116,7 @@
             <div class="pagination-area">
 
                 <!-- 페이지네이션 a태그에 사용될 공통 주소를 저장한 변수 선언 -->
-                <c:set var="url" value="list?type=${param.type}&cp="/>
+                <c:set var="url" value="${boardCode}?cp="/>
 
 
                 <ul class="pagination">
@@ -151,8 +159,8 @@
 
                 <select name="key" id="search-key">
                     <option value="t">제목</option>
-                  op  <option value="c">내용</option>
-                    <option value="tc">제목+내용</tion>
+                    <option value="c">내용</option>
+                    <option value="tc">제목+내용</option>
                     <option value="w">작성자</option>
                 </select>
 
