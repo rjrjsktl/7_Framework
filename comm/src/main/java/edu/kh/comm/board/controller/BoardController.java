@@ -184,12 +184,12 @@ public class BoardController {
 		return "board/boardWriteForm";
 	}
 	    
-	@GetMapping("/create/{boardCode}")
+	@PostMapping("/write/{boardCode}")
 	public String boardCreate(@PathVariable("boardCode") int boardCode,
 	                            @RequestParam(value="no", required = false, defaultValue = "0") int boardNo,
 	                            Model model) {
 
-	    // 게시물 삭제 작업 수행
+	   
 
 	    // boardList로 리다이렉트
 	    return "redirect:/board/list/" + boardCode;

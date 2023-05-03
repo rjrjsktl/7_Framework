@@ -19,7 +19,7 @@
     <main>
         <jsp:include page="/WEB-INF/views/common/header.jsp"/>
 
-        <form action="write" enctype="multipart/form-data" method="POST" class="board-write"
+        <form action="../../write/${boardCode}" enctype="multipart/form-data" method="POST" class="board-write"
             onsubmit="return writeValidate()">
 
             <!-- 제목 -->
@@ -124,7 +124,8 @@
 
             <!-- 버튼 영역 -->
             <div class="board-btn-area">
-                <button type="submit" id="writebtn" onclick="location.href='../../../create/${boardCode}'">등록</button>
+                <button type="submit" id="writebtn">등록</button>
+                <!-- onclick="location.href='../../../create/${boardCode}'" -->
 
                 <!-- insert 모드 -->
                 <c:if test="${param.mode == 'insert'}">

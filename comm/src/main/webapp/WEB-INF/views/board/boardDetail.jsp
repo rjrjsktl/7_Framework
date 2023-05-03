@@ -173,6 +173,9 @@
         // 최상위 주소
         const contextPath = "${contextPath}";
         
+        // 게시판 번호
+        const boardCode = "${boardCode}"; // 1, 2, 3
+        
         // 게시글 번호
         const boardNo = "${detail.boardNo}"; // "500"
 
