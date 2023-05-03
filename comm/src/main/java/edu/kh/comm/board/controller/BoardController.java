@@ -14,6 +14,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -147,21 +148,90 @@ public class BoardController {
 	    model.addAttribute("detail", detail);
 		    
 	    return "board/boardDetail";
-	    
+	}
+	
 	    // 숙제
 	    
 	    // *게시글 작성 화면 전환
 	    // 개행문자가 <br>로 되어있는 상태 -> textarea 출력하려면 \n 변경해야함
 	    // -> Util.newLineClear() 메서드 사용!
+		// *게시글 작성 (삽입/수정)
+    	// "/board/write/{boardCode}"
+	
+	// 내가 한거
+	// 수정, 글쓰기 페이지 들어가지게 했음
+	
+	@GetMapping("/write/{boardCode}")
+	public String boardWriteForm(@PathVariable("boardCode") int boardCode,
+									@RequestParam(value="no", required = false, defaultValue = "0") int boardNo,
+									@RequestParam(value="cp", required = false, defaultValue = "1") int cp,				
+									Model model
+									) {
+		BoardDetail detail = service.selectBoardDetail(boardNo);
+		
+		if( boardNo == 0 ) {
+			
+		} else {
+			
+			model.addAttribute("detail", detail);
+			
+			/*Map<String, Object> map = null;
+			
+			map = service.selectBoardList(cp, boardCode);
+			
+			model.addAttribute("map", map);*/
+		}
+		return "board/boardWriteForm";
+	}
 	    
-	    // *게시글 작성 (삽입/수정)
-	    // "/board/write/{boardCode}"  
+	@GetMapping("/create/{boardCode}")
+	public String boardCreate(@PathVariable("boardCode") int boardCode,
+	                            @RequestParam(value="no", required = false, defaultValue = "0") int boardNo,
+	                            Model model) {
+
+	    // 게시물 삭제 작업 수행
+
+	    // boardList로 리다이렉트
+	    return "redirect:/board/list/" + boardCode;
+	}
+	
+	@GetMapping("/delete/{boardCode}")
+	public String boardDelete(@PathVariable("boardCode") int boardCode,
+	                            @RequestParam(value="no", required = false, defaultValue = "0") int boardNo,
+	                            Model model) {
+
+	    // 게시물 삭제 작업 수행
+
+	    // boardList로 리다이렉트
+	    return "redirect:/board/list/" + boardCode;
+	}
+	
 	    // - 메서드 하나로 해야함 - 보드넘버가 있는거면 업뎃 없으면 삽입
 	    
 	    
 	    // *게시글 삭제
-	    
+	
+	
+	
+/* 도근이형꺼
+	String path = null;
+	
+	if( mode.equals("insert")) {
+		path = "board/boardWriteForm";
+		
+	} else if( mode.equals("update"))  {
+		
+		path = "board/boardWriteForm";
+		
 	}
+	
+	return path;
+*/
+	
+	
+	
+	
+	
 	
 //	@GetMapping("/detail/{boardCode}/{boardNo}")
 //	public String boardDetail(@PathVariable("boardCode") int boardCode,

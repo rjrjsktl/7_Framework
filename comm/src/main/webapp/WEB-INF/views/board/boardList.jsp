@@ -107,9 +107,9 @@
 
                 <c:if test="${!empty loginMember}">
                     <!-- /community/board/write -->
-                    <button id="insertBtn" onclick="location.href='write?mode=insert&type=${param.type}&cp=${param.cp}'">글쓰기</button>                     
+                    <button id="insertBtn" onclick="location.href='../write/${boardCode}/?mode=insert&cp=${pagination.currentPage}${sURL}&no=${detail.boardNo}'">글쓰기</button>                     
                 </c:if>
-
+	
             </div>
 
             
@@ -138,7 +138,7 @@
                                 <li><a href="${url}${i}${sURL}">${i}</a></li>        
                             </c:otherwise>
                         </c:choose>
-
+                        
                     </c:forEach>
                     
                     <!-- 다음 목록 시작 번호로 이동 -->

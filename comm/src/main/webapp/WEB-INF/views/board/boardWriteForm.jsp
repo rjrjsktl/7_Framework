@@ -124,7 +124,7 @@
 
             <!-- 버튼 영역 -->
             <div class="board-btn-area">
-                <button type="submit" id="writebtn">등록</button>
+                <button type="submit" id="writebtn" onclick="location.href='../../../create/${boardCode}'">등록</button>
 
                 <!-- insert 모드 -->
                 <c:if test="${param.mode == 'insert'}">
@@ -144,8 +144,6 @@
             <!-- 동작 구분 -->
             <input type="hidden" name="mode" value="${param.mode}">
 
-            <!-- 게시판 구분 -->
-            <input type="hidden" name="type" value="${param.type}">
 
             <!-- 게시글 번호 -->
             <input type="hidden" name="no" value="${param.no}">
