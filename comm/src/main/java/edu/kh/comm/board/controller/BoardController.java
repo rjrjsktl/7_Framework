@@ -15,6 +15,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -180,6 +181,7 @@ public class BoardController {
 			map = service.selectBoardList(cp, boardCode);
 			
 			model.addAttribute("map", map);*/
+		
 		}
 		return "board/boardWriteForm";
 	}
@@ -187,23 +189,47 @@ public class BoardController {
 	@PostMapping("/write/{boardCode}")
 	public String boardCreate(@PathVariable("boardCode") int boardCode,
 	                            @RequestParam(value="no", required = false, defaultValue = "0") int boardNo,
-	                            Model model) {
-
+	                            Model model
+	                            ) {
+//		Map<String, Object> map = null;
+//		
+//		map = service.selectBoardList(cp, boardCode);
+//		
+//		model.addAttribute("map", map);	
+		
+		
 	   
 
 	    // boardList로 리다이렉트
 	    return "redirect:/board/list/" + boardCode;
 	}
 	
-	@GetMapping("/delete/{boardCode}")
+	// 삭제 기능 구현 완료
+	@GetMapping("/delete/{boardCode}/{boardNo}")
 	public String boardDelete(@PathVariable("boardCode") int boardCode,
-	                            @RequestParam(value="no", required = false, defaultValue = "0") int boardNo,
-	                            Model model) {
-
+								@PathVariable("boardNo") int boardNo,
+								@RequestParam(value="cp", required = false, defaultValue = "1") int cp,
+								@RequestHeader("referer") String referer,
+	                            Model model
+	                            ) {
 	    // 게시물 삭제 작업 수행
-
+		// BoardDetail detail = service.selectBoardDelete(boardNo);
+		
+		System.out.println("controller 됨?");
+		// int 필요?
+		int result = service.updateBoardDelete(boardNo);
+		
+		String path = null;
+		
+		if(result > 0) {
+			path = "/board/list/" + boardCode + "/?cp=" + cp;
+		} else {
+			path = referer;
+		}
+		//model.addAttribute("detail", detail);
+		System.out.println("redirect 됨?");
 	    // boardList로 리다이렉트
-	    return "redirect:/board/list/" + boardCode;
+	    return "redirect:" + path;
 	}
 	
 	    // - 메서드 하나로 해야함 - 보드넘버가 있는거면 업뎃 없으면 삽입

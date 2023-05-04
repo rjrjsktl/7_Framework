@@ -80,7 +80,7 @@
                                                 <img class="list-thumbnail" src="${contextPath}${board.thumbnail}">
                                             </c:if>  
 
-                                            <a href="../detail/${boardCode}/${board.boardNo}?cp=${pagination.currentPage}${sURL}">${board.boardTitle}</a>                           
+                                            <a href="../detail/${boardCode}/${board.boardNo}/?cp=${pagination.currentPage}${sURL}">${board.boardTitle}</a>                           
 											<%-- detail?no=${board.boardNo}&cp=${pagination.currentPage}&type=${param.type}${sURL} --%>                                            
 											
 											
@@ -154,8 +154,7 @@
 
             <!-- /board/list?type=1&cp=10 &key=t&query=안녕 -->
 
-            <form action="list" method="get" id="boardSearch" onsubmit="return searchValidate()">
-                <input type="hidden" name="type" value="${param.type}">
+            <form action="${boardCode}" method="get" id="boardSearch" onsubmit="return searchValidate()">
 
                 <select name="key" id="search-key">
                     <option value="t">제목</option>

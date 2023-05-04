@@ -121,12 +121,17 @@
 		WHERE BOARD_NO = #{boardNo}
 	</update>
 
-
-
 	<!-- 조회수 증가 강사님 -->
 	<update id="updateReadCount1">
 		UPDATE BOARD SET
 		READ_COUNT = READ_COUNT + 1
+		WHERE BOARD_NO = #{boardNo}
+	</update>
+	
+	<!-- 게시글 삭제 sql -->
+	<update id="updateBoardDelete">
+		UPDATE BOARD SET
+		BOARD_ST = 'Y'
 		WHERE BOARD_NO = #{boardNo}
 	</update>
 

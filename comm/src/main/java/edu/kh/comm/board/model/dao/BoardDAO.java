@@ -72,4 +72,12 @@ public class BoardDAO {
 	public int updateReadCount1(int boardNo) {
 		return sqlSession.update("boardMapper.updateReadCount1", boardNo);
 	}
+
+	/** 게시글 삭제 DAO
+	 * @param boardNo
+	 * @return
+	 */
+	public int updateBoardDelete(int boardNo) {
+		return sqlSession.update("boardMapper.updateBoardDelete", boardNo);
+	}
 }

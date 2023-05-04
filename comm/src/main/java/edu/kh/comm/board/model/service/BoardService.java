@@ -30,4 +30,7 @@ public interface BoardService {
 
 	int updateReadCount1(int boardNo);
 
+	int updateBoardDelete(int boardNo);
+
+
 }
