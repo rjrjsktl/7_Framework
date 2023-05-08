@@ -19,7 +19,7 @@
     <main>
         <jsp:include page="/WEB-INF/views/common/header.jsp"/>
 
-        <form action="../../write/${boardCode}" enctype="multipart/form-data" method="POST" class="board-write"
+        <form action="${boardCode}" enctype="multipart/form-data" method="POST" class="board-write"
             onsubmit="return writeValidate()">
 
             <!-- 제목 -->
@@ -65,7 +65,7 @@
                     <label for="img0">
                         <img class="preview" src="${img0}">
                     </label>
-                    <input type="file" class="inputImage" id="img0" name="0" accept="image/*">
+                    <input type="file" class="inputImage" id="img0" name="images" accept="image/*">
                     <span class="delete-image">&times;</span>
                     <!-- &times;  :  x 모양의 문자 -->
                 </div>
@@ -79,7 +79,7 @@
                     <label for="img1">
                         <img class="preview" src="${img1}">
                     </label>
-                    <input type="file" class="inputImage" id="img1" name="1" accept="image/*">
+                    <input type="file" class="inputImage" id="img1" name="images" accept="image/*">
                     <span class="delete-image">&times;</span>
                 </div>
 
@@ -87,7 +87,7 @@
                     <label for="img2">
                         <img class="preview" src="${img2}">
                     </label>
-                    <input type="file" class="inputImage" id="img2" name="2" accept="image/*">
+                    <input type="file" class="inputImage" id="img2" name="images" accept="image/*">
                     <span class="delete-image">&times;</span>
                 </div>
 
@@ -95,7 +95,7 @@
                     <label for="img3">
                         <img class="preview" src="${img3}">
                     </label>
-                    <input type="file" class="inputImage" id="img3" name="3" accept="image/*">
+                    <input type="file" class="inputImage" id="img3" name="images" accept="image/*">
                     <span class="delete-image">&times;</span>
                 </div>
                 
@@ -103,7 +103,7 @@
                     <label for="img4">
                         <img class="preview" src="${img4}">
                     </label>
-                    <input type="file" class="inputImage" id="img4" name="4" accept="image/*">
+                    <input type="file" class="inputImage" id="img4" name="images" accept="image/*">
                     <span class="delete-image">&times;</span>
                 </div>
            
@@ -145,9 +145,8 @@
             <!-- 동작 구분 -->
             <input type="hidden" name="mode" value="${param.mode}">
 
-
-            <!-- 게시글 번호 -->
-            <input type="hidden" name="no" value="${param.no}">
+            <!-- 게시글 번호 (커맨드객체 BoardDetail.boardNo 세팅) -->
+            <input type="hidden" name="boardNo" value="${empty param.no ? 0 : param.no}">
             
             <!-- 현재 페이지 -->
             <input type="hidden" name="cp" value="${param.cp}">
@@ -164,6 +163,10 @@
     </main>
 
     <jsp:include page="/WEB-INF/views/common/footer.jsp"/>
+    
+    <script>
+    	const boardCode = "${boardCode}"; // 게시판코드를 전역변수로 생성
+    </script>
     
 
     <script src="${contextPath}/resources/js/board/board.js"></script>

@@ -107,7 +107,7 @@
 
                 <c:if test="${!empty loginMember}">
                     <!-- /community/board/write -->
-                    <button id="insertBtn" onclick="location.href='../write/${boardCode}/?mode=insert&cp=${pagination.currentPage}${sURL}&no=${detail.boardNo}'">글쓰기</button>                     
+                    <button id="insertBtn" onclick="location.href='../write/${boardCode}/?mode=insert&cp=${pagination.currentPage}&no=${detail.boardNo}'">글쓰기</button>                     
                 </c:if>
 	
             </div>

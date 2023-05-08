@@ -1,5 +1,6 @@
 package edu.kh.comm.board.controller;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -13,23 +14,33 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import edu.kh.comm.board.model.service.BoardService;
+import edu.kh.comm.board.model.service.ReplyService;
 import edu.kh.comm.board.model.vo.BoardDetail;
+import edu.kh.comm.board.model.vo.Reply;
+import edu.kh.comm.common.Util;
 import edu.kh.comm.member.model.vo.Member;
 
 @Controller
 @RequestMapping("/board")
+@SessionAttributes({"loginMember"})
 public class BoardController {
 	
 	@Autowired
 	private BoardService service;
 	
+	@Autowired
+	private ReplyService replyService;
 	
 	// 게시글 목록 조회
 	
@@ -80,6 +91,10 @@ public class BoardController {
 		// 쿠키를 이용한 조회수 중복 증가 방지 코드 + 본인의 글은 조회수 증가 X
 	    
 		if(detail != null) { // 상세 조회 성공 시
+			
+			// 댓글 목록을 조회해서 request scope에 추가
+//			List<Reply> rList = replyService.selectReplyList(boardNo);
+//			model.addAttribute("rList", rList);
 			
 			Member loginMember = (Member)session.getAttribute("loginMember");
 			
@@ -163,47 +178,115 @@ public class BoardController {
 	// 수정, 글쓰기 페이지 들어가지게 했음
 	
 	@GetMapping("/write/{boardCode}")
-	public String boardWriteForm(@PathVariable("boardCode") int boardCode,
-									@RequestParam(value="no", required = false, defaultValue = "0") int boardNo,
-									@RequestParam(value="cp", required = false, defaultValue = "1") int cp,				
-									Model model
+	public String boardWriteForm(@PathVariable("boardCode") int boardCode
+									, @RequestParam(value="no", required = false, defaultValue = "0") int boardNo
+//									insert의 경우 파라미터에 no가 없을 수 있어서
+									, @RequestParam(value="cp", required = false, defaultValue = "1") int cp				
+									, String mode
+									, Model model
 									) {
-		BoardDetail detail = service.selectBoardDetail(boardNo);
 		
-		if( boardNo == 0 ) {
+		
+		if (mode.equals("update")) {
 			
-		} else {
+			BoardDetail detail = service.selectBoardDetail(boardNo);
+			// -> 개행 문자가 <br>로 되어있는 상태 -> textarea 출력 예정이기 때문에 \n으로 변경 필요
+			detail.setBoardContent(Util.newLineClear(detail.getBoardContent()));
+			// 이걸 꼭 해줘야 오류없이 파일을 받을 수 있음
 			
+			// 게시글 상세조회 서비스 호출(boardNo)
 			model.addAttribute("detail", detail);
 			
-			/*Map<String, Object> map = null;
-			
-			map = service.selectBoardList(cp, boardCode);
-			
-			model.addAttribute("map", map);*/
-		
 		}
+//		내가한거
+//		if( boardNo != 0 ) {
+//			model.addAttribute("detail", detail);
+//		} else {
+//			else는 굳이 필요 없음			
+//		}
 		return "board/boardWriteForm";
 	}
 	    
 	@PostMapping("/write/{boardCode}")
-	public String boardCreate(@PathVariable("boardCode") int boardCode,
-	                            @RequestParam(value="no", required = false, defaultValue = "0") int boardNo,
-	                            Model model
-	                            ) {
-//		Map<String, Object> map = null;
-//		
-//		map = service.selectBoardList(cp, boardCode);
-//		
-//		model.addAttribute("map", map);	
+	public String boardWrite( BoardDetail detail // boardTitle, boardContent, boardNo(수정)
+								, @RequestParam(value="images", required = false) List<MultipartFile> imageList //업로드 파일(이미지) 리스트
+								, @PathVariable("boardCode") int boardCode
+								, String mode
+								, @ModelAttribute("loginMember") Member loginMember
+								, RedirectAttributes ra
+								, HttpServletRequest req
+								, @RequestParam(value="cp", required = false, defaultValue = "1") int cp
+								, @RequestParam(value="deleteList", required = false) String deleteList
+	                            // , @RequestParam(value="no", required = false, defaultValue = "0") int boardNo
+	                            // , Model model
+	                            ) throws IOException {
+		// 1) 로그인한 회원 번호 얻어와서 detail에 세팅
+		detail.setMemberNo(loginMember.getMemberNo());
 		
+		// 2) 이미지 저장 경로 얻어오기 (webPath, folderPath)
+		String webPath = "/resources/images/board/";
+		String folderPath = req.getSession().getServletContext().getRealPath(webPath);
 		
-	   
+		// 3) 삽입 or 수정
+		if(mode.equals("insert")) { // 삽입
+			
+			// 게시글 부분 삽입 (제목, 내용, 회원번호, 게시판코드)
+			// -> 삽인된 게시글의 번호(boardNo) 반환 (왜? 삽입이 끝나면 게시글 상세조회로 리다이렉트 할거라서)
+			
+			
+			// 게시글에 포함된 이미지 정보 삽입 (0~5개, 게시글 번호 필요)
+			// -> 실제 파일로 변환해서 서버에 저장 (transFor())
+			
+			// 두 번의 insert 중 한 번이라도 실패하면 전체 rollback (트랜잭션 처리)
+			
+			int boardNo = service.insertBoard(detail, imageList, webPath, folderPath);
+			
+			String path = null;
+			String message = null;
+			
+			if(boardNo > 0) {
+				// /board/write/1
+				// /board/detail/1/1500 으로 가야함
+				
+				path = "../detail/" + boardCode + "/" + boardNo;
+				message = "게시글이 등록되었습니다.";
+				
+			} else {
+				path = req.getHeader("referer");
+				message = "게시글 삽입 실패..";
+			}
+			
+			ra.addFlashAttribute("message", message);
+			
+			return "redirect:" + path;
+			
+		} else { // 수정
 
-	    // boardList로 리다이렉트
-	    return "redirect:/board/list/" + boardCode;
+			// 게시글 수정 서비스 호출
+			// 게시글 번호를 알고있기 때문에 수정 결과만 반환 받으면 된다.
+			int result = service.updateBoard(detail, imageList, webPath, folderPath, deleteList);
+			
+			String path = null;
+			String message = null;
+			
+			if(result > 0) {
+				// 현재 : /board/write/{boardCode}
+				// 목표 : /board/detail/{boardCode}/{boardNo}?cp=10
+				
+				path = "../detail/" + boardCode + "/" + detail.getBoardNo() + "?cp=" + cp;
+				message = "게시글이 수정되었습니다.";
+				
+			} else {
+				path = req.getHeader("referer");
+				message = "게시글 수정 실패..";
+			}
+			
+			ra.addFlashAttribute("message", message);
+			
+			return "redirect:" + path;
+		}
 	}
-	
+/*	
 	// 삭제 기능 구현 완료
 	@GetMapping("/delete/{boardCode}/{boardNo}")
 	public String boardDelete(@PathVariable("boardCode") int boardCode,
@@ -231,7 +314,7 @@ public class BoardController {
 	    // boardList로 리다이렉트
 	    return "redirect:" + path;
 	}
-	
+	*/
 	    // - 메서드 하나로 해야함 - 보드넘버가 있는거면 업뎃 없으면 삽입
 	    
 	    

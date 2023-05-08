@@ -23,7 +23,7 @@
             let url = pathname.substring(0,  pathname.indexOf("/", 1)); // 
             //   /community
 
-            url += "/board/list/"+boardCode+"/?";  //   /board/list/1?cp=1
+            url += "/board/list/"+boardCode+"?";  //   /board/list/1?cp=1
 
 
             // URL 내장 객체 : 주소 관련 정보를 나타내는 객체
@@ -114,7 +114,7 @@
             // 현재 : /board/detail/{boardCode}/{boardNo}
             // 목표 : /board/delete/{boardCode}/{boardNo}
       
-            let url = contextPath + "/board/delete/" + boardCode + "/" +  boardNo + "/?cp=" + cp;
+            let url = contextPath + "/board/delete/" + boardCode + "/" +  boardNo;
             // 삭제 성공 -> 해당 게시판 목록 조회 1페이지로 리다이렉트
             // 삭제 실패 -> 요청 이전 페이지(referer)로 리다이렉트
 
