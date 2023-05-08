@@ -188,10 +188,10 @@
 
 	<!-- 게시글 이미지 삭제 (IN 구문 작성 시 삭제되는 deleteList에 ''가 없도록 주의) -->
 	<delete id="deleteBoardImage">
-		DELETE FROM BOARD_IMG
-		WHERE BOARD_NO = ${boardNo}
-		AND IMG_LEVEL IN ( ${deleteList} )
-	</delete>
+        DELETE FROM BOARD_IMG 
+        WHERE BOARD_NO = ${boardNo} 
+        AND IMG_LEVEL IN ( ${deleteList} )
+    </delete>
 
 	<!-- 게시글 이미지 1개 수정 -->
 	<update id="updateBoardImage">
@@ -214,6 +214,13 @@
 			#{boardNo}
 		)
 	</insert>
+	
+	<!-- 게시글 삭제 sql -->
+	<update id="deleteBoard">
+		UPDATE BOARD SET
+		BOARD_ST = 'Y'
+		WHERE BOARD_NO = #{boardNo}
+	</update>
 
 	 
 	<!-- 게시글 삭제 sql

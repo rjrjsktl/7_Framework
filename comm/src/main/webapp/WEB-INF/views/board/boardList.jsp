@@ -80,7 +80,7 @@
                                                 <img class="list-thumbnail" src="${contextPath}${board.thumbnail}">
                                             </c:if>  
 
-                                            <a href="../detail/${boardCode}/${board.boardNo}/?cp=${pagination.currentPage}${sURL}">${board.boardTitle}</a>                           
+                                            <a href="../detail/${boardCode}/${board.boardNo}?cp=${pagination.currentPage}${sURL}">${board.boardTitle}</a>                           
 											<%-- detail?no=${board.boardNo}&cp=${pagination.currentPage}&type=${param.type}${sURL} --%>                                            
 											
 											
@@ -107,7 +107,7 @@
 
                 <c:if test="${!empty loginMember}">
                     <!-- /community/board/write -->
-                    <button id="insertBtn" onclick="location.href='../write/${boardCode}/?mode=insert&cp=${pagination.currentPage}&no=${detail.boardNo}'">글쓰기</button>                     
+                    <button id="insertBtn" onclick="location.href='../write/${boardCode}?mode=insert&cp=${pagination.currentPage}&no=${detail.boardNo}'">글쓰기</button>                     
                 </c:if>
 	
             </div>

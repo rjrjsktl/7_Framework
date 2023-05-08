@@ -1,5 +1,7 @@
 // 미리보기 관련 요소 모두 얻어오기
 // -> 동일한 개수의 요소가 존재함 == 인덱스가 일치함
+// boardWriteForm.js
+
 const inputImage = document.getElementsByClassName("inputImage");
 const preview = document.getElementsByClassName("preview");
 const deleteImage = document.getElementsByClassName("delete-image");
@@ -94,4 +96,3 @@ function writeValidate(){
 
     return true;
 }
-

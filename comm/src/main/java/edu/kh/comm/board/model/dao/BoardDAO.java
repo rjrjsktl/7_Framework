@@ -144,4 +144,8 @@ public class BoardDAO {
 		return sqlSession.insert("boardMapper.insertBoardImage", img);
 	}
 
+	public int deleteBoard(int boardNo) {
+		return sqlSession.delete("boardMapper.deleteBoard", boardNo);
+	}
+
 }

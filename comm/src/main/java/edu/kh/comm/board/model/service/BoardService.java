@@ -33,8 +33,6 @@ public interface BoardService {
 
 	int updateReadCount1(int boardNo);
 
-	//int updateBoardDelete(int boardNo);
-
 	/** 게시글 삽입 + 이미지 삽입
 	 * @param detail
 	 * @param imageList
@@ -54,6 +52,8 @@ public interface BoardService {
 	 */
 	int updateBoard(BoardDetail detail, List<MultipartFile> imageList, String webPath, String folderPath,
 			String deleteList) throws IOException;
+
+	int deleteBoard(int boardNo);
 
 
 }

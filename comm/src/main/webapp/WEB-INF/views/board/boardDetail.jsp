@@ -134,7 +134,7 @@
                     </c:if>
 
 
-                    <button id="updateBtn" onclick="location.href='../../write/${boardCode}/?mode=update&cp=${pagination.currentPage}${sURL}&no=${detail.boardNo}'">수정</button>                       
+                    <button id="updateBtn" onclick="location.href='../../write/${boardCode}?mode=update&cp=${cp}&no=${detail.boardNo}'">수정</button>                       
                     <!-- <button id="insertBtn" onclick="location.href='../write/${boardCode}?mode=insert&cp=${pagination.currentPage}${sURL}'">글쓰기</button> -->
                     <button id="deleteBtn">삭제</button>
                 </c:if>

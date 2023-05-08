@@ -1,4 +1,5 @@
 // 상세조회, 게시글 작성 - 목록으로 버튼
+// board.js
 
 // 즉시 실행 함수
 (function(){
@@ -114,7 +115,7 @@
             // 현재 : /board/detail/{boardCode}/{boardNo}
             // 목표 : /board/delete/{boardCode}/{boardNo}
       
-            let url = contextPath + "/board/delete/" + boardCode + "/" +  boardNo;
+            let url = contextPath + "/board/delete/" + boardCode + "/" +  boardNo + "?cp=" + cp;
             // 삭제 성공 -> 해당 게시판 목록 조회 1페이지로 리다이렉트
             // 삭제 실패 -> 요청 이전 페이지(referer)로 리다이렉트
 
@@ -180,4 +181,3 @@ function searchValidate(){
 
     return true;
 }
-

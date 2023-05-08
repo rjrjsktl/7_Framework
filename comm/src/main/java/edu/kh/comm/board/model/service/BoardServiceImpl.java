@@ -23,7 +23,7 @@ import edu.kh.comm.board.model.vo.Pagination;
 import edu.kh.comm.common.Util;
 
 @Service
-public class BoardServiceImpl implements BoardService{
+public class BoardServiceImpl implements BoardService {
 	
 	@Autowired
 	private BoardDAO dao;
@@ -75,12 +75,6 @@ public class BoardServiceImpl implements BoardService{
 	public int updateReadCount1(int boardNo) {
 		return dao.updateReadCount1(boardNo);
 	}
-
-	// 게시글 삭제 서비스 구현
-//	@Override
-//	public int updateBoardDelete(int boardNo) {
-//		return dao.updateBoardDelete(boardNo);
-//	}
 
 	// 게시글 삽인 + 이미지 삽입 서비스 구현
 	@Transactional(rollbackFor = {Exception.class})
@@ -219,7 +213,7 @@ public class BoardServiceImpl implements BoardService{
 				}
 			}
 			// 4) deleteList를 이용해서 삭제된 이미지 delete
-			if(deleteList.equals("")) {
+			if(!deleteList.equals("")) {
 				
 				Map<String, Object> map = new HashMap</*String, Object*/>();
 				
@@ -261,6 +255,18 @@ public class BoardServiceImpl implements BoardService{
 		}
 		return result;
 	}
+
+	// 게시글 삭제 서비스 구현
+	@Override
+	public int deleteBoard(int boardNo) {
+		return dao.deleteBoard(boardNo);
+	}
+	
+	
+//		@Override
+//		public int updateBoardDelete(int boardNo) {
+//			return dao.updateBoardDelete(boardNo);
+//		}
 	
 	
 	
