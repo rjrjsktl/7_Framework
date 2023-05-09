@@ -26,7 +26,19 @@
 		CONNECT BY PARENT_REPLY_NO = PRIOR REPLY_NO
 		ORDER SIBLINGS BY REPLY_NO
 	</select>
-
+	
+	<insert id="insertReply">
+		INSERT INTO REPLY_S VALUES(
+			SEQ_REPLY_NO_S.NEXTVAL,
+			#{replyContent}, 
+			DEFAULT,
+			DEFAULT,
+			#{memberNo},
+			#{boardNo},
+			NULL
+		)
+	
+	</insert>
 
 
 

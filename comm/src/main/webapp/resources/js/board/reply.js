@@ -148,7 +148,8 @@ addReply.addEventListener("click", function(){ // 댓글 등록 버튼이 클릭
         url : contextPath + "/reply/insert",
         data : {"replyContent" : replyContent.value,
                 "memberNo" : loginMemberNo,
-                "boardNo" : boardNo },
+                "boardNo" : boardNo
+                },
         type : "post",
         success : function(result){
 
