@@ -12,6 +12,10 @@ public interface ReplyService {
 	 */
 	List<Reply> selectReplyList(int boardNo);
 
+	/** 댓글 등록 서비스
+	 * @param reply
+	 * @return result
+	 */
 	int insertReply(Reply reply);
 
 	

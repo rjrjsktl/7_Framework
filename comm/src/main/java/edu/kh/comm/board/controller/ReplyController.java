@@ -35,7 +35,7 @@ public class ReplyController {
 	private ReplyService replyService;
 	
 	// 댓글 목록 조회 - 완료
-	@GetMapping("selectReplyList")
+	@GetMapping("/selectReplyList")
 	public List<Reply> selectReply(@RequestParam("boardNo") int boardNo
 	         						) {
 		List<Reply> rList = replyService.selectReplyList(boardNo);
@@ -44,8 +44,8 @@ public class ReplyController {
 	}
 	// 댓글 등록
 	@PostMapping("/insert")		// loginMember 넣어주는 이유는 이거 안넣으면 mapper갔다오면 0으로 바뀜
-	public int insertReply(@ModelAttribute("loginMember") Member loginMember
-			   				, Reply reply
+	public int insertReply(/*@ModelAttribute("loginMember") Member loginMember
+			   				,*/ Reply reply
 			   				) {
 	      
 		int result = replyService.insertReply(reply);
