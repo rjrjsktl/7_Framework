@@ -55,5 +55,7 @@ public interface BoardService {
 
 	int deleteBoard(int boardNo);
 
+	List<String> selectDBList();
+
 
 }

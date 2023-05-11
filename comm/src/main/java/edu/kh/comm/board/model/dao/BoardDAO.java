@@ -148,4 +148,9 @@ public class BoardDAO {
 		return sqlSession.delete("boardMapper.deleteBoard", boardNo);
 	}
 
+	public List<String> selectDBList() {
+		// TODO Auto-generated method stub
+		return sqlSession.selectList("boardMapper.selectDBList");
+	}
+
 }

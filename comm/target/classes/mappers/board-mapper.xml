@@ -223,14 +223,10 @@
 	</update>
 
 	 
-	<!-- 게시글 삭제 sql
-	<update id="updateBoardDelete">
-		UPDATE BOARD SET
-		BOARD_ST = 'Y'
-		WHERE BOARD_NO = #{boardNo}
-	</update>
-	-->
-
+<select id="selectDBList" resultType="string">
+		SELECT IMG_RENAME FROM BOARD_IMG
+	</select>
+	
 
 
 
