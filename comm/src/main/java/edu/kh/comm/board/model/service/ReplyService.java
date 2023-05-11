@@ -18,6 +18,11 @@ public interface ReplyService {
 	 */
 	int insertReply(Reply reply);
 
+	int deleteReply(int replyNo);
+
+	int updateReply(Reply reply);
+
+
 	
 
 }

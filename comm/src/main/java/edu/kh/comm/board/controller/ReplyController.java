@@ -52,9 +52,21 @@ public class ReplyController {
 	      
 		return result;
 	}
+
 	// 댓글 삭제
+	@GetMapping("/delete")
+	public int deleteReply(@RequestParam("replyNo") int replyNo) {
+		
+		int result = replyService.deleteReply(replyNo);
+		
+		return result;
+	}
 	
 	// 댓글 수정
+	@PostMapping("/update")
+	public int updateReply(Reply reply) {
+		return replyService.updateReply(reply);
+	}
 	
 	// ---------CRUD만드는거임
 	
