@@ -68,6 +68,19 @@
 			</if>
 		)	
 	</insert>
+	
+	<update id="deleteReply">
+    	UPDATE REPLY_S SET
+    	REPLY_ST = 'Y'
+    	WHERE REPLY_NO = ${replyNo}
+	</update>
+	
+	<update id="updateReply">
+    	UPDATE REPLY_S SET
+    	REPLY_CONTENT = #{replyContent}
+    	WHERE REPLY_NO = ${replyNo}
+	</update>
+	
 
 	<!-- 댓글 목록 조회 (내가한거) 
 	<select id="selectReplyList" resultMap="reply_rm">
