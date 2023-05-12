@@ -35,7 +35,7 @@ public class ImageDeleteScheduling {
 	private ServletContext application; //application scope 객체-> 서버 폴더 경로 얻어오기에 사용
 	
 		
-//	@Scheduled(cron="0 0 * * * *")
+//	@Scheduled(cron="0 0 * * * *") // 정시마다
 	@Scheduled(cron="0 * * * * *")
 	public void serverImageDelete() {
 		// 1) Board_IMG 에 존재하는 모든 이미지 목록 조회

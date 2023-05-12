@@ -1,468 +1,1056 @@
-2023-05-11 16:00:31 [INFO] 초기화 필터 생성
-2023-05-11 16:00:34 [INFO] 5초마다 출력
-2023-05-11 16:00:39 [INFO] 5초마다 출력
-2023-05-11 16:00:44 [INFO] 5초마다 출력
-2023-05-11 16:00:49 [INFO] 5초마다 출력
-2023-05-11 16:00:54 [INFO] 5초마다 출력
-2023-05-11 16:00:59 [INFO] 5초마다 출력
-2023-05-11 16:01:04 [INFO] 5초마다 출력
-2023-05-11 16:01:09 [INFO] 5초마다 출력
-2023-05-11 16:01:14 [INFO] 5초마다 출력
-2023-05-11 16:01:19 [INFO] 5초마다 출력
-2023-05-11 16:01:24 [INFO] 5초마다 출력
-2023-05-11 16:01:29 [INFO] 5초마다 출력
-2023-05-11 16:01:34 [INFO] 5초마다 출력
-2023-05-11 16:01:39 [INFO] 5초마다 출력
-2023-05-11 16:01:42 [INFO] 초기화 필터 파괴
-2023-05-11 16:01:53 [INFO] 초기화 필터 생성
-2023-05-11 16:01:56 [INFO] 5초마다 출력
-2023-05-11 16:02:01 [INFO] 5초마다 출력
-2023-05-11 16:02:06 [INFO] 5초마다 출력
-2023-05-11 16:02:11 [INFO] 5초마다 출력
-2023-05-11 16:02:16 [INFO] 5초마다 출력
-2023-05-11 16:02:21 [INFO] 5초마다 출력
-2023-05-11 16:02:26 [INFO] 5초마다 출력
-2023-05-11 16:02:31 [INFO] 5초마다 출력
-2023-05-11 16:02:36 [INFO] 5초마다 출력
-2023-05-11 16:02:41 [INFO] 5초마다 출력
-2023-05-11 16:02:46 [INFO] 5초마다 출력
-2023-05-11 16:02:51 [INFO] 5초마다 출력
-2023-05-11 16:02:56 [INFO] 5초마다 출력
-2023-05-11 16:03:01 [INFO] 5초마다 출력
-2023-05-11 16:03:06 [INFO] 5초마다 출력
-2023-05-11 16:03:11 [INFO] 5초마다 출력
-2023-05-11 16:03:16 [INFO] 5초마다 출력
-2023-05-11 16:03:21 [INFO] 5초마다 출력
-2023-05-11 16:03:26 [INFO] 5초마다 출력
-2023-05-11 16:03:31 [INFO] 5초마다 출력
-2023-05-11 16:03:36 [INFO] 5초마다 출력
-2023-05-11 16:03:41 [INFO] 5초마다 출력
-2023-05-11 16:03:46 [INFO] 5초마다 출력
-2023-05-11 16:03:51 [INFO] 5초마다 출력
-2023-05-11 16:03:56 [INFO] 5초마다 출력
-2023-05-11 16:04:01 [INFO] 5초마다 출력
-2023-05-11 16:04:06 [INFO] 5초마다 출력
-2023-05-11 16:04:11 [INFO] 5초마다 출력
-2023-05-11 16:04:16 [INFO] 5초마다 출력
-2023-05-11 16:04:21 [INFO] 5초마다 출력
-2023-05-11 16:04:26 [INFO] 5초마다 출력
-2023-05-11 16:04:31 [INFO] 5초마다 출력
-2023-05-11 16:04:36 [INFO] 5초마다 출력
-2023-05-11 16:04:41 [INFO] 5초마다 출력
-2023-05-11 16:04:46 [INFO] 5초마다 출력
-2023-05-11 16:05:47 [INFO] 초기화 필터 생성
-2023-05-11 16:05:52 [INFO] 후처리 수행
-2023-05-11 16:05:53 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:05:53 [INFO] 후처리 수행
-2023-05-11 16:05:53 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:05:53 [INFO] 후처리 수행
-2023-05-11 16:05:53 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:05:53 [INFO] 후처리 수행
-2023-05-11 16:05:53 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:05:54 [INFO] 후처리 수행
-2023-05-11 16:05:54 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:06:00 [INFO] 5초마다 출력
-2023-05-11 16:06:04 [INFO] 후처리 수행
-2023-05-11 16:06:04 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:06:14 [INFO] 후처리 수행
-2023-05-11 16:06:14 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:06:24 [INFO] 후처리 수행
-2023-05-11 16:06:24 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:06:34 [INFO] 후처리 수행
-2023-05-11 16:06:34 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:06:44 [INFO] 후처리 수행
-2023-05-11 16:06:44 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:06:54 [INFO] 후처리 수행
-2023-05-11 16:06:54 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:07:00 [INFO] 5초마다 출력
-2023-05-11 16:07:04 [INFO] 후처리 수행
-2023-05-11 16:07:04 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:07:14 [INFO] 후처리 수행
-2023-05-11 16:07:14 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:08:00 [INFO] 5초마다 출력
-2023-05-11 16:08:02 [INFO] 후처리 수행
-2023-05-11 16:08:02 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:09:00 [INFO] 5초마다 출력
-2023-05-11 16:09:02 [INFO] 후처리 수행
-2023-05-11 16:09:02 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:10:00 [INFO] 5초마다 출력
-2023-05-11 16:10:02 [INFO] 후처리 수행
-2023-05-11 16:10:02 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:50:48 [INFO] 초기화 필터 생성
-2023-05-11 16:50:54 [INFO] 후처리 수행
-2023-05-11 16:50:54 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:50:54 [INFO] 후처리 수행
-2023-05-11 16:50:54 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 16:51:04 [INFO] 후처리 수행
-2023-05-11 16:51:04 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:13 [INFO] 로그인 기능 수행됨
-2023-05-11 16:51:13 [DEBUG] pass01! / $2a$10$64QMVNNZRN5RHqOhoiO8vO2V5jvzoFmvODMtpy1yer1YY/S7.nZlu
-2023-05-11 16:51:13 [INFO] 후처리 수행
-2023-05-11 16:51:13 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:13 [INFO] 후처리 수행
-2023-05-11 16:51:13 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:14 [INFO] 후처리 수행
-2023-05-11 16:51:14 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:24 [INFO] 후처리 수행
-2023-05-11 16:51:24 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:24 [INFO] 로그인 기능 수행됨
-2023-05-11 16:51:24 [DEBUG] pass01! / $2a$10$CpNwZMNLkjG/rryvg2H0BuJXoSBUt64zrHYuw78PVtHwum.r6Ancu
-2023-05-11 16:51:24 [INFO] 후처리 수행
-2023-05-11 16:51:24 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:24 [INFO] 후처리 수행
-2023-05-11 16:51:24 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:25 [INFO] 후처리 수행
-2023-05-11 16:51:25 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:35 [INFO] 후처리 수행
-2023-05-11 16:51:35 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:45 [INFO] 후처리 수행
-2023-05-11 16:51:45 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:50 [INFO] 로그인 기능 수행됨
-2023-05-11 16:51:50 [DEBUG] aaaaaa / $2a$10$gr66U39oVIIM8rB3KwaJUeICdf5uyZp0iu1StzSkNNHvrCSqD.mDq
-2023-05-11 16:51:50 [INFO] 후처리 수행
-2023-05-11 16:51:50 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:50 [INFO] 후처리 수행
-2023-05-11 16:51:50 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:50 [INFO] 후처리 수행
-2023-05-11 16:51:50 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:53 [INFO] 후처리 수행
-2023-05-11 16:51:53 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:53 [INFO] 후처리 수행
-2023-05-11 16:51:53 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:53 [INFO] 후처리 수행
-2023-05-11 16:51:53 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:53 [INFO] 후처리 수행
-2023-05-11 16:51:53 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:53 [INFO] 후처리 수행
-2023-05-11 16:51:53 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:55 [INFO] 후처리 수행
-2023-05-11 16:51:55 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:55 [INFO] 후처리 수행
-2023-05-11 16:51:55 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:55 [INFO] 후처리 수행
-2023-05-11 16:51:55 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:55 [INFO] 후처리 수행
-2023-05-11 16:51:55 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:55 [INFO] 후처리 수행
-2023-05-11 16:51:55 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:55 [INFO] 후처리 수행
-2023-05-11 16:51:55 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:55 [INFO] 후처리 수행
-2023-05-11 16:51:55 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:55 [INFO] 후처리 수행
-2023-05-11 16:51:55 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:51:55 [INFO] 후처리 수행
-2023-05-11 16:51:55 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:52:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 16:53:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 16:53:21 [INFO] 초기화 필터 파괴
-2023-05-11 16:53:41 [INFO] 초기화 필터 생성
-2023-05-11 16:53:46 [INFO] 후처리 수행
-2023-05-11 16:53:49 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:53:49 [INFO] 후처리 수행
-2023-05-11 16:53:49 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:53:53 [INFO] 로그인 기능 수행됨
-2023-05-11 16:53:53 [DEBUG] aaaaaa / $2a$10$epq9aLfR3NQC59pZyUZIeepJ3Z6zajOhpywMg7pMS.MW5oUYCjdHS
-2023-05-11 16:53:54 [INFO] 후처리 수행
-2023-05-11 16:53:54 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:53:54 [INFO] 후처리 수행
-2023-05-11 16:53:54 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:53:54 [INFO] 후처리 수행
-2023-05-11 16:53:54 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:53:56 [INFO] 후처리 수행
-2023-05-11 16:53:56 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:53:58 [INFO] 후처리 수행
-2023-05-11 16:53:59 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:53:59 [INFO] 후처리 수행
-2023-05-11 16:53:59 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:54:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 16:54:01 [INFO] 후처리 수행
-2023-05-11 16:54:01 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:54:01 [INFO] 후처리 수행
-2023-05-11 16:54:01 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:54:01 [INFO] 후처리 수행
-2023-05-11 16:54:01 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:54:07 [INFO] 후처리 수행
-2023-05-11 16:54:07 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:54:07 [INFO] 후처리 수행
-2023-05-11 16:54:08 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:54:08 [INFO] 후처리 수행
-2023-05-11 16:54:08 [INFO] View단 처리 완료 후 수행
-2023-05-11 16:55:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 16:56:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 19:08:01 [INFO] 珥덇린�솕 �븘�꽣 �깮�꽦
-2023-05-11 19:13:20 [INFO] 초기화 필터 생성
-2023-05-11 19:17:17 [INFO] 초기화 필터 생성
-2023-05-11 19:18:27 [INFO] 초기화 필터 생성
-2023-05-11 20:04:29 [INFO] 초기화 필터 생성
-2023-05-11 20:08:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:09:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:10:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:11:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:12:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:13:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:13:22 [INFO] 초기화 필터 생성
-2023-05-11 20:13:26 [INFO] 후처리 수행
-2023-05-11 20:13:27 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:13:27 [INFO] 후처리 수행
-2023-05-11 20:13:27 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:13:28 [INFO] 후처리 수행
-2023-05-11 20:13:28 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:13:28 [INFO] 후처리 수행
-2023-05-11 20:13:28 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:13:28 [INFO] 후처리 수행
-2023-05-11 20:13:28 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:13:38 [INFO] 후처리 수행
-2023-05-11 20:13:38 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:13:45 [INFO] 로그인 기능 수행됨
-2023-05-11 20:13:45 [DEBUG] pass1! / $2a$10$RwQGiq5SjP5M2Pncia9MKuneyhO9MIkHyaRpO5NvTngaFaVQrq0hu
-2023-05-11 20:13:45 [INFO] 후처리 수행
-2023-05-11 20:13:45 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:13:45 [INFO] 후처리 수행
-2023-05-11 20:13:45 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:13:47 [INFO] 후처리 수행
-2023-05-11 20:13:47 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:13:57 [INFO] 후처리 수행
-2023-05-11 20:13:57 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:14:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:14:02 [INFO] 로그인 기능 수행됨
-2023-05-11 20:14:02 [DEBUG] pass01! / $2a$10$SlT.Q2nKjEwrmla0Rli0oeBHA4rjAH0ka97.p8K1SYZE40Pwo/JX2
-2023-05-11 20:14:02 [INFO] 후처리 수행
-2023-05-11 20:14:02 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:14:02 [INFO] 후처리 수행
-2023-05-11 20:14:02 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:14:04 [INFO] 후처리 수행
-2023-05-11 20:14:04 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:14:14 [INFO] 후처리 수행
-2023-05-11 20:14:14 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:14:22 [INFO] 로그인 기능 수행됨
-2023-05-11 20:14:22 [DEBUG] PASS01! / $2a$10$7X.eB1m4EEwVg9A76S6x1uPO9a.Z6VK38Xu1iFzXV/vfIeIN3LH5S
-2023-05-11 20:14:22 [INFO] 후처리 수행
-2023-05-11 20:14:22 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:14:22 [INFO] 후처리 수행
-2023-05-11 20:14:22 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:14:23 [INFO] 후처리 수행
-2023-05-11 20:14:23 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:14:33 [INFO] 후처리 수행
-2023-05-11 20:14:33 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:14:43 [INFO] 후처리 수행
-2023-05-11 20:14:43 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:14:53 [INFO] 후처리 수행
-2023-05-11 20:14:53 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:15:03 [INFO] 후처리 수행
-2023-05-11 20:15:03 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:06 [INFO] 로그인 기능 수행됨
-2023-05-11 20:15:06 [DEBUG] pass01! / $2a$10$2QW8TGrv.yrBqtz8CR1IYOhf1LfK.5j6bxhF87bO3xKps/1EAe2f6
-2023-05-11 20:15:06 [INFO] 후처리 수행
-2023-05-11 20:15:06 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:06 [INFO] 후처리 수행
-2023-05-11 20:15:06 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:07 [INFO] 후처리 수행
-2023-05-11 20:15:07 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:17 [INFO] 후처리 수행
-2023-05-11 20:15:17 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:27 [INFO] 후처리 수행
-2023-05-11 20:15:27 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:35 [INFO] 로그인 기능 수행됨
-2023-05-11 20:15:35 [DEBUG] pass01! / $2a$10$LPTKG9XyjvTnZ0d8rcM4MOzW3.EXSjNOPqLF6HA4pVoZ1FCDl.Tau
-2023-05-11 20:15:35 [INFO] 후처리 수행
-2023-05-11 20:15:35 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:35 [INFO] 후처리 수행
-2023-05-11 20:15:35 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:36 [INFO] 후처리 수행
-2023-05-11 20:15:36 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:46 [INFO] 후처리 수행
-2023-05-11 20:15:46 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:49 [INFO] 로그인 기능 수행됨
-2023-05-11 20:15:49 [DEBUG] pass01! / $2a$10$sDR5kM5Mq/p3icIstsiR.upoCdMuMF.Wm38sfIq9qKoGqYrtDmBSW
-2023-05-11 20:15:49 [INFO] 후처리 수행
-2023-05-11 20:15:49 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:49 [INFO] 후처리 수행
-2023-05-11 20:15:49 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:15:50 [INFO] 후처리 수행
-2023-05-11 20:15:50 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:16:00 [INFO] 후처리 수행
-2023-05-11 20:16:00 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:10 [INFO] 후처리 수행
-2023-05-11 20:16:10 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:20 [INFO] 후처리 수행
-2023-05-11 20:16:20 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:28 [INFO] 로그인 기능 수행됨
-2023-05-11 20:16:28 [DEBUG] pass01! / $2a$10$azT03LIb.YrL0sYo74X82.NCOcxDQK2yGy8CIhrsOuVy8k7rldBHO
-2023-05-11 20:16:28 [INFO] 후처리 수행
-2023-05-11 20:16:28 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:28 [INFO] 후처리 수행
-2023-05-11 20:16:28 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:30 [INFO] 후처리 수행
-2023-05-11 20:16:30 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:37 [INFO] 로그인 기능 수행됨
-2023-05-11 20:16:37 [DEBUG] PASS01! / $2a$10$R4hlvllzh1BiGXH/yKEl6utzi054dd8hBxu5k/ecS/XqLDpJefEkW
-2023-05-11 20:16:37 [INFO] 후처리 수행
-2023-05-11 20:16:37 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:37 [INFO] 후처리 수행
-2023-05-11 20:16:37 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:37 [INFO] 후처리 수행
-2023-05-11 20:16:37 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:47 [INFO] 후처리 수행
-2023-05-11 20:16:47 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:47 [INFO] 후처리 수행
-2023-05-11 20:16:47 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:47 [INFO] 후처리 수행
-2023-05-11 20:16:47 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:16:48 [INFO] 후처리 수행
-2023-05-11 20:16:48 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:17:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:17:00 [INFO] 후처리 수행
-2023-05-11 20:17:00 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:17:00 [INFO] 후처리 수행
-2023-05-11 20:17:00 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:17:03 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:18:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:19:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:20:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:21:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:22:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:23:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:23:08 [INFO] 후처리 수행
-2023-05-11 20:23:08 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:23:09 [INFO] 후처리 수행
-2023-05-11 20:23:09 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:23:10 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:23:47 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:24:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:25:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:25:11 [INFO] 후처리 수행
-2023-05-11 20:25:11 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:25:11 [INFO] 후처리 수행
-2023-05-11 20:25:11 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:25:11 [INFO] 후처리 수행
-2023-05-11 20:25:11 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:25:13 [INFO] 후처리 수행
-2023-05-11 20:25:13 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:25:14 [INFO] 후처리 수행
-2023-05-11 20:25:14 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:25:15 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:25:19 [INFO] 후처리 수행
-2023-05-11 20:25:19 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:31:19 [INFO] 초기화 필터 생성
-2023-05-11 20:31:22 [INFO] 후처리 수행
-2023-05-11 20:31:23 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:31:23 [INFO] 후처리 수행
-2023-05-11 20:31:23 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:31:23 [INFO] 후처리 수행
-2023-05-11 20:31:23 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:31:23 [INFO] 후처리 수행
-2023-05-11 20:31:23 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:31:23 [INFO] 후처리 수행
-2023-05-11 20:31:23 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:31:33 [INFO] 후처리 수행
-2023-05-11 20:31:33 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:31:33 [INFO] 로그인 기능 수행됨
-2023-05-11 20:31:33 [DEBUG] aaaaaa / $2a$10$Yh0dkTrpX2cYBLBPKzyCE.BPQl0jdrkSH8fL.Q/VJVkyq742qBsy6
-2023-05-11 20:31:33 [INFO] 후처리 수행
-2023-05-11 20:31:33 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:31:33 [INFO] 후처리 수행
-2023-05-11 20:31:33 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:31:35 [INFO] 후처리 수행
-2023-05-11 20:31:35 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:31:36 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:32:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:33:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:34:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:35:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:35:52 [INFO] 초기화 필터 생성
-2023-05-11 20:35:56 [INFO] 후처리 수행
-2023-05-11 20:35:56 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:35:56 [INFO] 후처리 수행
-2023-05-11 20:35:56 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:35:58 [INFO] 로그인 기능 수행됨
-2023-05-11 20:35:58 [DEBUG] aaaaaa / $2a$10$xhT.O.XEVmiYmyRioUeFWuXe/Wug0hTS2gkDz9eyUYedUmjyl0lCG
-2023-05-11 20:35:58 [INFO] 후처리 수행
-2023-05-11 20:35:58 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:35:58 [INFO] 후처리 수행
-2023-05-11 20:35:58 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:35:58 [INFO] 후처리 수행
-2023-05-11 20:35:58 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:36:01 [INFO] 후처리 수행
-2023-05-11 20:36:01 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:01 [INFO] 후처리 수행
-2023-05-11 20:36:01 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:01 [INFO] 후처리 수행
-2023-05-11 20:36:01 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:06 [INFO] 후처리 수행
-2023-05-11 20:36:07 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:07 [INFO] 후처리 수행
-2023-05-11 20:36:07 [INFO] 후처리 수행
-2023-05-11 20:36:07 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:07 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:07 [INFO] 후처리 수행
-2023-05-11 20:36:07 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:07 [INFO] 후처리 수행
-2023-05-11 20:36:07 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:07 [INFO] 후처리 수행
-2023-05-11 20:36:07 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:07 [INFO] 후처리 수행
-2023-05-11 20:36:07 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:07 [INFO] 후처리 수행
-2023-05-11 20:36:07 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:11 [INFO] 후처리 수행
-2023-05-11 20:36:11 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:13 [INFO] 후처리 수행
-2023-05-11 20:36:13 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:14 [INFO] 후처리 수행
-2023-05-11 20:36:14 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:14 [INFO] 후처리 수행
-2023-05-11 20:36:14 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:36:15 [INFO] 후처리 수행
-2023-05-11 20:36:15 [INFO] View단 처리 완료 후 수행
-2023-05-11 20:37:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:38:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:39:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:40:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:41:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:42:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:43:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:44:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:45:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:46:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:47:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:48:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:49:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:50:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:51:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:52:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:53:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:54:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:55:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:56:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:57:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:58:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 20:59:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:00:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:01:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:02:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:03:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:04:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:05:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:06:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:07:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:08:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:09:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:10:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:11:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:12:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:13:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:14:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:15:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:16:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:17:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:18:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:19:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:20:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:21:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:22:00 [INFO] 서버 이미지 삭제 완료
-2023-05-11 21:23:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:20:26 [INFO] 초기화 필터 생성
+2023-05-12 17:23:49 [INFO] 초기화 필터 생성
+2023-05-12 17:26:52 [INFO] 초기화 필터 파괴
+2023-05-12 17:27:18 [INFO] 초기화 필터 생성
+2023-05-12 17:28:24 [INFO] 초기화 필터 파괴
+2023-05-12 17:28:43 [INFO] 초기화 필터 생성
+2023-05-12 17:28:51 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:28:51 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:28:55 [INFO] ---------------Servuce End---------------
+2023-05-12 17:28:55 [INFO] Running Time : 3575ms
+2023-05-12 17:28:55 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@1d05049f, edu.kh.comm.board.model.vo.BoardType@1042a0e5, edu.kh.comm.board.model.vo.BoardType@ca86322]
+2023-05-12 17:28:55 [INFO] 후처리 수행
+2023-05-12 17:28:59 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:28:59 [INFO] 후처리 수행
+2023-05-12 17:28:59 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:28:59 [INFO] 후처리 수행
+2023-05-12 17:28:59 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:28:59 [INFO] 후처리 수행
+2023-05-12 17:28:59 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:28:59 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:28:59 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:28:59 [INFO] ---------------Servuce End---------------
+2023-05-12 17:28:59 [INFO] Running Time : 19ms
+2023-05-12 17:28:59 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:28:59 [INFO] 후처리 수행
+2023-05-12 17:28:59 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:29:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:29:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:29:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:29:00 [INFO] Running Time : 24ms
+2023-05-12 17:29:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg]
+2023-05-12 17:29:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:29:09 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:29:09 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:29:09 [INFO] ---------------Servuce End---------------
+2023-05-12 17:29:09 [INFO] Running Time : 7ms
+2023-05-12 17:29:09 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:29:09 [INFO] 후처리 수행
+2023-05-12 17:29:09 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:29:19 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:29:19 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:29:19 [INFO] ---------------Servuce End---------------
+2023-05-12 17:29:19 [INFO] Running Time : 14ms
+2023-05-12 17:29:19 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:29:19 [INFO] 후처리 수행
+2023-05-12 17:29:19 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:29:29 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:29:29 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:29:29 [INFO] ---------------Servuce End---------------
+2023-05-12 17:29:29 [INFO] Running Time : 10ms
+2023-05-12 17:29:29 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:29:29 [INFO] 후처리 수행
+2023-05-12 17:29:29 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:29:39 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:29:39 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:29:39 [INFO] ---------------Servuce End---------------
+2023-05-12 17:29:39 [INFO] Running Time : 11ms
+2023-05-12 17:29:39 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:29:39 [INFO] 후처리 수행
+2023-05-12 17:29:39 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:29:49 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:29:49 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:29:49 [INFO] ---------------Servuce End---------------
+2023-05-12 17:29:49 [INFO] Running Time : 9ms
+2023-05-12 17:29:49 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:29:49 [INFO] 후처리 수행
+2023-05-12 17:29:49 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:29:59 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:29:59 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:29:59 [INFO] ---------------Servuce End---------------
+2023-05-12 17:29:59 [INFO] Running Time : 9ms
+2023-05-12 17:29:59 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:29:59 [INFO] 후처리 수행
+2023-05-12 17:29:59 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:30:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:30:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:30:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:30:00 [INFO] Running Time : 15ms
+2023-05-12 17:30:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg]
+2023-05-12 17:30:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:30:09 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:30:09 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:30:09 [INFO] ---------------Servuce End---------------
+2023-05-12 17:30:09 [INFO] Running Time : 11ms
+2023-05-12 17:30:09 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:30:09 [INFO] 후처리 수행
+2023-05-12 17:30:09 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:30:19 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:30:19 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:30:19 [INFO] ---------------Servuce End---------------
+2023-05-12 17:30:19 [INFO] Running Time : 7ms
+2023-05-12 17:30:19 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:30:19 [INFO] 후처리 수행
+2023-05-12 17:30:19 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:30:29 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:30:29 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:30:29 [INFO] ---------------Servuce End---------------
+2023-05-12 17:30:29 [INFO] Running Time : 10ms
+2023-05-12 17:30:29 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:30:29 [INFO] 후처리 수행
+2023-05-12 17:30:29 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:30:39 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:30:39 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:30:39 [INFO] ---------------Servuce End---------------
+2023-05-12 17:30:39 [INFO] Running Time : 5ms
+2023-05-12 17:30:39 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:30:39 [INFO] 후처리 수행
+2023-05-12 17:30:39 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:30:50 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:30:50 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:30:50 [INFO] ---------------Servuce End---------------
+2023-05-12 17:30:50 [INFO] Running Time : 3ms
+2023-05-12 17:30:50 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:30:50 [INFO] 후처리 수행
+2023-05-12 17:30:50 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:31:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:31:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:31:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:31:00 [INFO] Running Time : 18ms
+2023-05-12 17:31:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg]
+2023-05-12 17:31:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:31:00 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:31:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:31:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:31:00 [INFO] Running Time : 13ms
+2023-05-12 17:31:00 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:31:00 [INFO] 후처리 수행
+2023-05-12 17:31:00 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:31:10 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:31:10 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:31:10 [INFO] ---------------Servuce End---------------
+2023-05-12 17:31:10 [INFO] Running Time : 5ms
+2023-05-12 17:31:10 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:31:10 [INFO] 후처리 수행
+2023-05-12 17:31:10 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:31:20 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:31:20 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:31:20 [INFO] ---------------Servuce End---------------
+2023-05-12 17:31:20 [INFO] Running Time : 10ms
+2023-05-12 17:31:20 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:31:20 [INFO] 후처리 수행
+2023-05-12 17:31:20 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:34:13 [INFO] 초기화 필터 생성
+2023-05-12 17:34:21 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:34:21 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:34:26 [INFO] ---------------Servuce End---------------
+2023-05-12 17:34:26 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@267d986a, edu.kh.comm.board.model.vo.BoardType@3c31a11b, edu.kh.comm.board.model.vo.BoardType@6b576514]
+2023-05-12 17:34:26 [INFO] Running Time : 5182ms
+2023-05-12 17:34:26 [INFO] 후처리 수행
+2023-05-12 17:34:27 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:34:27 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:34:27 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:34:27 [INFO] ---------------Servuce End---------------
+2023-05-12 17:34:27 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:34:27 [INFO] Running Time : 13ms
+2023-05-12 17:34:27 [INFO] 후처리 수행
+2023-05-12 17:34:27 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:34:37 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:34:37 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:34:37 [INFO] ---------------Servuce End---------------
+2023-05-12 17:34:37 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:34:37 [INFO] Running Time : 6ms
+2023-05-12 17:34:37 [INFO] 후처리 수행
+2023-05-12 17:34:37 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:34:47 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:34:47 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:34:47 [INFO] ---------------Servuce End---------------
+2023-05-12 17:34:47 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:34:47 [INFO] Running Time : 12ms
+2023-05-12 17:34:47 [INFO] 후처리 수행
+2023-05-12 17:34:47 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:34:57 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:34:57 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:34:57 [INFO] ---------------Servuce End---------------
+2023-05-12 17:34:57 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:34:57 [INFO] Running Time : 3ms
+2023-05-12 17:34:57 [INFO] 후처리 수행
+2023-05-12 17:34:57 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:35:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:35:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:35:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:35:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg]
+2023-05-12 17:35:00 [INFO] Running Time : 10ms
+2023-05-12 17:35:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:35:07 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:35:07 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:35:07 [INFO] ---------------Servuce End---------------
+2023-05-12 17:35:07 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:35:07 [INFO] Running Time : 12ms
+2023-05-12 17:35:07 [INFO] 후처리 수행
+2023-05-12 17:35:07 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:35:17 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:35:17 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:35:17 [INFO] ---------------Servuce End---------------
+2023-05-12 17:35:17 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:35:17 [INFO] Running Time : 6ms
+2023-05-12 17:35:17 [INFO] 후처리 수행
+2023-05-12 17:35:17 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:35:27 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:35:27 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:35:27 [INFO] ---------------Servuce End---------------
+2023-05-12 17:35:27 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:35:27 [INFO] Running Time : 14ms
+2023-05-12 17:35:27 [INFO] 후처리 수행
+2023-05-12 17:35:27 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:35:37 [INFO] 초기화 필터 파괴
+2023-05-12 17:36:22 [INFO] 초기화 필터 생성
+2023-05-12 17:36:31 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:36:31 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:36:38 [INFO] ---------------Servuce End---------------
+2023-05-12 17:36:38 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@27ebbda6, edu.kh.comm.board.model.vo.BoardType@79a5008d, edu.kh.comm.board.model.vo.BoardType@402f4ffd]
+2023-05-12 17:36:38 [INFO] Running Time : 6309ms
+2023-05-12 17:36:38 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------
+
+2023-05-12 17:36:38 [INFO] 후처리 수행
+2023-05-12 17:36:38 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:36:38 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:36:38 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:36:38 [INFO] ---------------Servuce End---------------
+2023-05-12 17:36:38 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:36:38 [INFO] Running Time : 8ms
+2023-05-12 17:36:38 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:36:38 [INFO] 후처리 수행
+2023-05-12 17:36:38 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:36:48 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:36:48 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:36:48 [INFO] ---------------Servuce End---------------
+2023-05-12 17:36:48 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:36:48 [INFO] Running Time : 6ms
+2023-05-12 17:36:48 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:36:48 [INFO] 후처리 수행
+2023-05-12 17:36:48 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:36:58 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:36:58 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:36:58 [INFO] ---------------Servuce End---------------
+2023-05-12 17:36:58 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:36:58 [INFO] Running Time : 13ms
+2023-05-12 17:36:58 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:36:58 [INFO] 후처리 수행
+2023-05-12 17:36:58 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:37:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:37:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:37:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:37:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg]
+2023-05-12 17:37:00 [INFO] Running Time : 23ms
+2023-05-12 17:37:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:37:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:37:08 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:37:08 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:37:08 [INFO] ---------------Servuce End---------------
+2023-05-12 17:37:08 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:37:08 [INFO] Running Time : 3ms
+2023-05-12 17:37:08 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:37:08 [INFO] 후처리 수행
+2023-05-12 17:37:08 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:37:18 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:37:18 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:37:18 [INFO] ---------------Servuce End---------------
+2023-05-12 17:37:18 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:37:18 [INFO] Running Time : 11ms
+2023-05-12 17:37:18 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:37:18 [INFO] 후처리 수행
+2023-05-12 17:37:18 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:37:28 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:37:28 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:37:28 [INFO] ---------------Servuce End---------------
+2023-05-12 17:37:28 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:37:28 [INFO] Running Time : 9ms
+2023-05-12 17:37:28 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:37:28 [INFO] 후처리 수행
+2023-05-12 17:37:28 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:37:38 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:37:38 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:37:38 [INFO] ---------------Servuce End---------------
+2023-05-12 17:37:38 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:37:38 [INFO] Running Time : 2ms
+2023-05-12 17:37:38 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:37:38 [INFO] 후처리 수행
+2023-05-12 17:37:38 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:37:48 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:37:48 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:37:48 [INFO] ---------------Servuce End---------------
+2023-05-12 17:37:48 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:37:48 [INFO] Running Time : 8ms
+2023-05-12 17:37:48 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:37:48 [INFO] 후처리 수행
+2023-05-12 17:37:48 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:37:58 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:37:58 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:37:58 [INFO] ---------------Servuce End---------------
+2023-05-12 17:37:58 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:37:58 [INFO] Running Time : 5ms
+2023-05-12 17:37:58 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:37:58 [INFO] 후처리 수행
+2023-05-12 17:37:58 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:38:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:38:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:38:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:38:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg]
+2023-05-12 17:38:00 [INFO] Running Time : 9ms
+2023-05-12 17:38:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:38:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:38:00 [INFO] 초기화 필터 파괴
+2023-05-12 17:42:17 [INFO] 초기화 필터 생성
+2023-05-12 17:42:23 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:42:23 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:42:26 [INFO] ---------------Servuce End---------------
+2023-05-12 17:42:26 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@7823e21a, edu.kh.comm.board.model.vo.BoardType@147c20e3, edu.kh.comm.board.model.vo.BoardType@1cbd083d]
+2023-05-12 17:42:26 [INFO] Running Time : 3099ms
+2023-05-12 17:42:26 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------
+
+2023-05-12 17:42:27 [INFO] 후처리 수행
+2023-05-12 17:42:27 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:42:27 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:42:27 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:42:27 [INFO] ---------------Servuce End---------------
+2023-05-12 17:42:27 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:42:27 [INFO] Running Time : 11ms
+2023-05-12 17:42:27 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:42:27 [INFO] 후처리 수행
+2023-05-12 17:42:27 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:42:30 [INFO] 로그인 기능 수행됨
+2023-05-12 17:42:30 [INFO] ------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=AAAAAA, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2023-05-12 17:42:30 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:42:31 [DEBUG] AAAAAA / $2a$10$fMEhB0UdeTyT3B5Tkz6PEef5r421pAbvwDfjS3dz3Ut3dumGwURxO
+2023-05-12 17:42:31 [INFO] ---------------Servuce End---------------
+2023-05-12 17:42:31 [INFO] Return Value : null
+2023-05-12 17:42:31 [INFO] Running Time : 592ms
+2023-05-12 17:42:31 [INFO] End : MemberServiceImpl - login
+-------------------------------------
+
+2023-05-12 17:42:31 [INFO] 후처리 수행
+2023-05-12 17:42:31 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:42:31 [INFO] 후처리 수행
+2023-05-12 17:42:31 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:42:33 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:42:33 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:42:33 [INFO] ---------------Servuce End---------------
+2023-05-12 17:42:33 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:42:33 [INFO] Running Time : 5ms
+2023-05-12 17:42:33 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:42:33 [INFO] 후처리 수행
+2023-05-12 17:42:33 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:42:43 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:42:43 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:42:43 [INFO] ---------------Servuce End---------------
+2023-05-12 17:42:43 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:42:43 [INFO] Running Time : 6ms
+2023-05-12 17:42:43 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:42:43 [INFO] 후처리 수행
+2023-05-12 17:42:43 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:42:54 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:42:54 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:42:54 [INFO] ---------------Servuce End---------------
+2023-05-12 17:42:54 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:42:54 [INFO] Running Time : 0ms
+2023-05-12 17:42:54 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:42:54 [INFO] 후처리 수행
+2023-05-12 17:42:54 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:43:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:43:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:43:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg]
+2023-05-12 17:43:00 [INFO] Running Time : 4ms
+2023-05-12 17:43:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:43:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:43:04 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:43:04 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:43:04 [INFO] ---------------Servuce End---------------
+2023-05-12 17:43:04 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:43:04 [INFO] Running Time : 10ms
+2023-05-12 17:43:04 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:43:04 [INFO] 후처리 수행
+2023-05-12 17:43:04 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:14 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:43:14 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:43:14 [INFO] ---------------Servuce End---------------
+2023-05-12 17:43:14 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:43:14 [INFO] Running Time : 7ms
+2023-05-12 17:43:14 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:43:14 [INFO] 후처리 수행
+2023-05-12 17:43:14 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:24 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:43:24 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:43:24 [INFO] ---------------Servuce End---------------
+2023-05-12 17:43:24 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:43:24 [INFO] Running Time : 8ms
+2023-05-12 17:43:24 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:43:24 [INFO] 후처리 수행
+2023-05-12 17:43:24 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:33 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:43:33 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:43:33 [INFO] ---------------Servuce End---------------
+2023-05-12 17:43:33 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:43:33 [INFO] Running Time : 7ms
+2023-05-12 17:43:33 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:43:33 [INFO] 후처리 수행
+2023-05-12 17:43:33 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:36 [INFO] 로그인 기능 수행됨
+2023-05-12 17:43:36 [INFO] ------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=PASS01!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2023-05-12 17:43:36 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:43:36 [DEBUG] PASS01! / $2a$10$kZHLBRTGP6NJRjWNimyI9ebetS/n.d5mr/ntxYOFk8qaGmUOhcWQ6
+2023-05-12 17:43:36 [INFO] ---------------Servuce End---------------
+2023-05-12 17:43:36 [INFO] Return Value : null
+2023-05-12 17:43:36 [INFO] Running Time : 338ms
+2023-05-12 17:43:36 [INFO] End : MemberServiceImpl - login
+-------------------------------------
+
+2023-05-12 17:43:36 [INFO] 후처리 수행
+2023-05-12 17:43:36 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:36 [INFO] 후처리 수행
+2023-05-12 17:43:36 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:37 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:43:37 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:43:37 [INFO] ---------------Servuce End---------------
+2023-05-12 17:43:37 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:43:37 [INFO] Running Time : 7ms
+2023-05-12 17:43:37 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:43:37 [INFO] 후처리 수행
+2023-05-12 17:43:37 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:41 [INFO] 로그인 기능 수행됨
+2023-05-12 17:43:41 [INFO] ------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=AAAAAA, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2023-05-12 17:43:41 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:43:42 [DEBUG] AAAAAA / $2a$10$NEZDYFQdfUdsgcO5XLPKLean6NVPZfaT5R5IGlQMI/Ah0wuuS0PBK
+2023-05-12 17:43:42 [INFO] ---------------Servuce End---------------
+2023-05-12 17:43:42 [INFO] Return Value : null
+2023-05-12 17:43:42 [INFO] Running Time : 361ms
+2023-05-12 17:43:42 [INFO] End : MemberServiceImpl - login
+-------------------------------------
+
+2023-05-12 17:43:42 [INFO] 후처리 수행
+2023-05-12 17:43:42 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:42 [INFO] 후처리 수행
+2023-05-12 17:43:42 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:43 [INFO] ------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2023-05-12 17:43:43 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:43:43 [INFO] ---------------Servuce End---------------
+2023-05-12 17:43:43 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-12 17:43:43 [INFO] Running Time : 6ms
+2023-05-12 17:43:43 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------
+
+2023-05-12 17:43:43 [INFO] 후처리 수행
+2023-05-12 17:43:43 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:47 [INFO] 로그인 기능 수행됨
+2023-05-12 17:43:47 [INFO] ------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=aaaaaa, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2023-05-12 17:43:47 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:43:47 [DEBUG] aaaaaa / $2a$10$Cbzq/8TBz6LtHk7sCl9U3.q.ttlL6zUcv2tsT0IDyPDoGxA2ePltq
+2023-05-12 17:43:47 [INFO] ---------------Servuce End---------------
+2023-05-12 17:43:47 [INFO] Return Value : Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=01012341234, memberAddress=null, profileImage=null, enrollDate=2023-05-11 20:11:57, secessionFlag=null)
+2023-05-12 17:43:47 [INFO] Running Time : 344ms
+2023-05-12 17:43:47 [INFO] End : MemberServiceImpl - login
+-------------------------------------
+
+2023-05-12 17:43:47 [INFO] 후처리 수행
+2023-05-12 17:43:47 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:47 [INFO] 후처리 수행
+2023-05-12 17:43:48 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:48 [INFO] 후처리 수행
+2023-05-12 17:43:48 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:50 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:43:50 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:43:50 [INFO] ---------------Servuce End---------------
+2023-05-12 17:43:50 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=500, limit=10, pageSize=10, maxPage=50, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@391a1713, edu.kh.comm.board.model.vo.Board@75637ef5, edu.kh.comm.board.model.vo.Board@3b7dc48e, edu.kh.comm.board.model.vo.Board@295966a, edu.kh.comm.board.model.vo.Board@6bdebba4, edu.kh.comm.board.model.vo.Board@5a4e4fc, edu.kh.comm.board.model.vo.Board@50a80972, edu.kh.comm.board.model.vo.Board@7e20e3cb, edu.kh.comm.board.model.vo.Board@603d6430, edu.kh.comm.board.model.vo.Board@429cffcf]}
+2023-05-12 17:43:50 [INFO] Running Time : 286ms
+2023-05-12 17:43:50 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------
+
+2023-05-12 17:43:50 [INFO] 후처리 수행
+2023-05-12 17:43:54 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:54 [INFO] 후처리 수행
+2023-05-12 17:43:54 [INFO] 후처리 수행
+2023-05-12 17:43:54 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:54 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:43:54 [INFO] 후처리 수행
+2023-05-12 17:43:54 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:44:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:44:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:44:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:44:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg]
+2023-05-12 17:44:00 [INFO] Running Time : 6ms
+2023-05-12 17:44:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:44:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:45:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:45:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:45:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:45:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg]
+2023-05-12 17:45:00 [INFO] Running Time : 11ms
+2023-05-12 17:45:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:45:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:45:05 [INFO] 후처리 수행
+2023-05-12 17:45:06 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:45:06 [INFO] 후처리 수행
+2023-05-12 17:45:06 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:45:06 [INFO] 후처리 수행
+2023-05-12 17:45:06 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:46:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:46:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:46:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:46:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg]
+2023-05-12 17:46:00 [INFO] Running Time : 12ms
+2023-05-12 17:46:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:46:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:47:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:47:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:47:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:47:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg]
+2023-05-12 17:47:00 [INFO] Running Time : 6ms
+2023-05-12 17:47:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:47:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:47:38 [INFO] ------------------------------
+Start : BoardServiceImpl - insertBoard
+Parameter : [edu.kh.comm.board.model.vo.BoardDetail@6fc18fce, [MultipartFile[field="images", filename=20220608151454_23273.png, contentType=image/png, size=19555], MultipartFile[field="images", filename=20220602143645_10274.gif, contentType=image/gif, size=57434], MultipartFile[field="images", filename=, contentType=application/octet-stream, size=0], MultipartFile[field="images", filename=, contentType=application/octet-stream, size=0], MultipartFile[field="images", filename=, contentType=application/octet-stream, size=0]], /resources/images/board/, C:\workspace\7_Framework\comm\src\main\webapp\resources\images\board\]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:47:38 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:47:38 [INFO] ---------------Servuce End---------------
+2023-05-12 17:47:38 [INFO] Return Value : 501
+2023-05-12 17:47:38 [INFO] Running Time : 182ms
+2023-05-12 17:47:38 [INFO] End : BoardServiceImpl - insertBoard
+-------------------------------------
+
+2023-05-12 17:47:38 [INFO] 후처리 수행
+2023-05-12 17:47:38 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:47:38 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [501]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:47:38 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:47:38 [INFO] ---------------Servuce End---------------
+2023-05-12 17:47:38 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@4da08d60
+2023-05-12 17:47:38 [INFO] Running Time : 51ms
+2023-05-12 17:47:38 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------
+
+2023-05-12 17:47:38 [INFO] ------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [501]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:47:38 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:47:38 [INFO] ---------------Servuce End---------------
+2023-05-12 17:47:38 [INFO] Return Value : []
+2023-05-12 17:47:38 [INFO] Running Time : 33ms
+2023-05-12 17:47:38 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------
+
+2023-05-12 17:47:38 [INFO] 후처리 수행
+2023-05-12 17:47:39 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:47:39 [INFO] 후처리 수행
+2023-05-12 17:47:39 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:47:39 [INFO] 후처리 수행
+2023-05-12 17:47:39 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:47:39 [INFO] 후처리 수행
+2023-05-12 17:47:39 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:47:39 [INFO] 후처리 수행
+2023-05-12 17:47:39 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:47:39 [INFO] 후처리 수행
+2023-05-12 17:47:39 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:48:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:48:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:48:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:48:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_96649.png, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:48:00 [INFO] Running Time : 11ms
+2023-05-12 17:48:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:48:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:48:20 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [501]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:48:20 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:48:20 [INFO] ---------------Servuce End---------------
+2023-05-12 17:48:20 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@7ce61a22
+2023-05-12 17:48:20 [INFO] Running Time : 11ms
+2023-05-12 17:48:20 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------
+
+2023-05-12 17:48:20 [INFO] 후처리 수행
+2023-05-12 17:48:20 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:48:20 [INFO] 후처리 수행
+2023-05-12 17:48:20 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:48:20 [INFO] 후처리 수행
+2023-05-12 17:48:20 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:48:24 [INFO] ------------------------------
+Start : BoardServiceImpl - updateBoard
+Parameter : [edu.kh.comm.board.model.vo.BoardDetail@5a96cf60, [MultipartFile[field="images", filename=, contentType=application/octet-stream, size=0], MultipartFile[field="images", filename=, contentType=application/octet-stream, size=0], MultipartFile[field="images", filename=, contentType=application/octet-stream, size=0], MultipartFile[field="images", filename=, contentType=application/octet-stream, size=0], MultipartFile[field="images", filename=, contentType=application/octet-stream, size=0]], /resources/images/board/, C:\workspace\7_Framework\comm\src\main\webapp\resources\images\board\, 0]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:48:24 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:48:24 [INFO] ---------------Servuce End---------------
+2023-05-12 17:48:24 [INFO] Return Value : 1
+2023-05-12 17:48:24 [INFO] Running Time : 14ms
+2023-05-12 17:48:24 [INFO] End : BoardServiceImpl - updateBoard
+-------------------------------------
+
+2023-05-12 17:48:24 [INFO] 후처리 수행
+2023-05-12 17:48:24 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:48:24 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [501]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:48:24 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:48:24 [INFO] ---------------Servuce End---------------
+2023-05-12 17:48:24 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@dcba53a
+2023-05-12 17:48:24 [INFO] Running Time : 12ms
+2023-05-12 17:48:24 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------
+
+2023-05-12 17:48:24 [INFO] ------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [501]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:48:24 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:48:24 [INFO] ---------------Servuce End---------------
+2023-05-12 17:48:24 [INFO] Return Value : []
+2023-05-12 17:48:24 [INFO] Running Time : 5ms
+2023-05-12 17:48:24 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------
+
+2023-05-12 17:48:24 [INFO] 후처리 수행
+2023-05-12 17:48:24 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:49:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:49:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:49:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:49:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:49:00 [INFO] Running Time : 11ms
+2023-05-12 17:49:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:49:00 [INFO] 20230512174738_96649.png삭제
+2023-05-12 17:49:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:49:49 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [501]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:49:49 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:49:49 [INFO] ---------------Servuce End---------------
+2023-05-12 17:49:49 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@21aedb27
+2023-05-12 17:49:49 [INFO] Running Time : 10ms
+2023-05-12 17:49:49 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------
+
+2023-05-12 17:49:49 [INFO] 후처리 수행
+2023-05-12 17:49:49 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:49:56 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:49:56 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:49:56 [INFO] ---------------Servuce End---------------
+2023-05-12 17:49:56 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=501, limit=10, pageSize=10, maxPage=51, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@48a9be1d, edu.kh.comm.board.model.vo.Board@1d7e0748, edu.kh.comm.board.model.vo.Board@3b5f709a, edu.kh.comm.board.model.vo.Board@7f6b75ca, edu.kh.comm.board.model.vo.Board@7ab7656c, edu.kh.comm.board.model.vo.Board@171e6935, edu.kh.comm.board.model.vo.Board@570500ec, edu.kh.comm.board.model.vo.Board@7364eae3, edu.kh.comm.board.model.vo.Board@32396de6, edu.kh.comm.board.model.vo.Board@560afd55]}
+2023-05-12 17:49:56 [INFO] Running Time : 21ms
+2023-05-12 17:49:56 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------
+
+2023-05-12 17:49:56 [INFO] 후처리 수행
+2023-05-12 17:49:56 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:50:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:50:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:50:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:50:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:50:00 [INFO] Running Time : 6ms
+2023-05-12 17:50:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:50:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:50:36 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 2]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:50:36 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:50:36 [INFO] ---------------Servuce End---------------
+2023-05-12 17:50:36 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=0, limit=10, pageSize=10, maxPage=0, startPage=1, endPage=0, prevPage=1, nextPage=0], boardList=[]}
+2023-05-12 17:50:36 [INFO] Running Time : 16ms
+2023-05-12 17:50:36 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------
+
+2023-05-12 17:50:36 [INFO] 후처리 수행
+2023-05-12 17:50:36 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:50:37 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 1]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:50:37 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:50:37 [INFO] ---------------Servuce End---------------
+2023-05-12 17:50:37 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=0, limit=10, pageSize=10, maxPage=0, startPage=1, endPage=0, prevPage=1, nextPage=0], boardList=[]}
+2023-05-12 17:50:37 [INFO] Running Time : 15ms
+2023-05-12 17:50:37 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------
+
+2023-05-12 17:50:37 [INFO] 후처리 수행
+2023-05-12 17:50:37 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:50:38 [INFO] ------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+ip : 127.0.0.1 (email : test01@naver.com)
+2023-05-12 17:50:38 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:50:38 [INFO] ---------------Servuce End---------------
+2023-05-12 17:50:38 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=501, limit=10, pageSize=10, maxPage=51, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@d1bfbfd, edu.kh.comm.board.model.vo.Board@5d3d1da0, edu.kh.comm.board.model.vo.Board@330817ee, edu.kh.comm.board.model.vo.Board@d3da819, edu.kh.comm.board.model.vo.Board@5fab6e50, edu.kh.comm.board.model.vo.Board@6aceb818, edu.kh.comm.board.model.vo.Board@190a65c8, edu.kh.comm.board.model.vo.Board@79177b90, edu.kh.comm.board.model.vo.Board@7d4a430c, edu.kh.comm.board.model.vo.Board@625b2ac5]}
+2023-05-12 17:50:38 [INFO] Running Time : 16ms
+2023-05-12 17:50:38 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------
+
+2023-05-12 17:50:38 [INFO] 후처리 수행
+2023-05-12 17:50:38 [INFO] View단 처리 완료 후 수행
+2023-05-12 17:51:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:51:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:51:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:51:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:51:00 [INFO] Running Time : 11ms
+2023-05-12 17:51:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:51:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:52:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:52:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:52:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:52:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:52:00 [INFO] Running Time : 7ms
+2023-05-12 17:52:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:52:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:53:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:53:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:53:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:53:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:53:00 [INFO] Running Time : 4ms
+2023-05-12 17:53:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:53:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:54:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:54:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:54:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:54:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:54:00 [INFO] Running Time : 10ms
+2023-05-12 17:54:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:54:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:55:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:55:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:55:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:55:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:55:00 [INFO] Running Time : 11ms
+2023-05-12 17:55:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:55:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:56:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:56:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:56:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:56:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:56:00 [INFO] Running Time : 11ms
+2023-05-12 17:56:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:56:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:57:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:57:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:57:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:57:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:57:00 [INFO] Running Time : 7ms
+2023-05-12 17:57:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:57:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:58:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:58:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:58:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:58:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:58:00 [INFO] Running Time : 6ms
+2023-05-12 17:58:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:58:00 [INFO] 서버 이미지 삭제 완료
+2023-05-12 17:59:00 [INFO] ------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케줄러 동작]
+2023-05-12 17:59:00 [INFO] ---------------Servuce Start---------------
+2023-05-12 17:59:00 [INFO] ---------------Servuce End---------------
+2023-05-12 17:59:00 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20230512174738_50609.gif]
+2023-05-12 17:59:00 [INFO] Running Time : 5ms
+2023-05-12 17:59:00 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------
+
+2023-05-12 17:59:00 [INFO] 서버 이미지 삭제 완료
