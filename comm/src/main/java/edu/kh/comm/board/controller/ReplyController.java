@@ -47,7 +47,7 @@ public class ReplyController {
 	public int insertReply(/*@ModelAttribute("loginMember") Member loginMember
 			   				,*/ Reply reply
 			   				) {
-	      
+	    System.out.println("댓글 오냐");
 		int result = replyService.insertReply(reply);
 	      
 		return result;
