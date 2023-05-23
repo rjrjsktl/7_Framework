@@ -11,6 +11,7 @@ MANIFEST.MF
 Servers
 comm/.metadata/
 comm/target/m2e-resources
+comm/logs
 
 
 
