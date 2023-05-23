@@ -3,11 +3,14 @@
 
 /META-INF/
 
+
 target
 pom.properties
 .classpath
 MANIFEST.MF
 Servers
+comm/.metadata/
+comm/target/m2e-resources
 
 
 
