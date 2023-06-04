@@ -10,7 +10,7 @@ pom.properties
 MANIFEST.MF
 Servers
 comm/.metadata/
-comm/target/m2e-resources
+comm/target/m2e-wtp
 comm/logs
 
 
@@ -91,6 +91,7 @@ local.properties
 
 # Log file
 *.log
+logs/*.log
 
 # BlueJ files
 *.ctxt
